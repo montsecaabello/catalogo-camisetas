@@ -1,166 +1,196 @@
 export const camisetas = [
   {
-    id: 1,
-    nombre: "España - Primera Equipación",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/españa/roja/Roja frente.png",
-      "/camisetas/españa/roja/Roja espalda.png",
+    nombre: "LaLiga",
+    equipos: [
+      {
+        nombre: "Barcelona",
+        camisetas: [
+          {
+            id: 1,
+            nombre: "Barcelona - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+  "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Frente.png",
+  "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Espalda.png",
+],
+          },
+          {
+            id: 2,
+            nombre: "Barcelona - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
+
+      {
+        nombre: "Betis",
+        camisetas: [
+          {
+            id: 3,
+            nombre: "Betis - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Betis/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/LaLiga/Betis/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 4,
+            nombre: "Betis - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Betis/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/LaLiga/Betis/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 5,
+            nombre: "Betis - Tercera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Betis/Tercera 25-26/Tercera 25-26 Frente.png",
+              "/camisetas/LaLiga/Betis/Tercera 25-26/Tercera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 6,
+            nombre: "Betis - Cuarta 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Betis/Cuarta 25-26/Cuarta 25-26 Frente.png",
+              "/camisetas/LaLiga/Betis/Cuarta 25-26/Cuarta 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 7,
+            nombre: "Betis - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Betis/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/LaLiga/Betis/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 8,
+            nombre: "Betis - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Betis/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/LaLiga/Betis/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
+
+      {
+        nombre: "Madrid",
+        camisetas: [
+          {
+            id: 9,
+            nombre: "Madrid - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Madrid/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/LaLiga/Madrid/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 10,
+            nombre: "Madrid - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Madrid/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/LaLiga/Madrid/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
     ],
   },
 
   {
-    id: 2,
-    nombre: "España - Segunda Equipación",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/españa/blanca/Blanca frente.png",
-      "/camisetas/españa/blanca/Blanca espalda.png",
+    nombre: "Segunda división",
+    equipos: [
+      {
+        nombre: "Cordoba",
+        camisetas: [
+          {
+            id: 11,
+            nombre: "Cordoba - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Segunda division/Cordoba/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/Segunda division/Cordoba/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 12,
+            nombre: "Cordoba - Tercera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Segunda division/Cordoba/Tercera 26-27/Tercera 26-27 Frente.png",
+              "/camisetas/Segunda division/Cordoba/Tercera 26-27/Tercera 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
     ],
   },
 
   {
-    id: 3,
-    nombre: "España - Exclusiva",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/españa/exclusiva/Exclusiva frente.png",
-      "/camisetas/españa/exclusiva/Exclusiva espalda.png",
-    ],
-  },
-
-  {
-    id: 4,
-    nombre: "Real Betis - Primera Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Betis/Primera 26-27/Primera 26-27 Frente.png",
-      "/camisetas/Betis/Primera 26-27/Primera 26-27 Espalda.png",
-    ],
-  },
-
-  {
-    id: 5,
-    nombre: "Real Betis - Segunda Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Betis/Segunda 26-27/Segunda 26-27 Frente.png",
-      "/camisetas/Betis/Segunda 26-27/Segunda 26-27 Espalda.png",
-    ],
-  },
-
-  {
-    id: 6,
-    nombre: "Real Betis - Primera Equipación 25-26",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Betis/Primera 25-26/Primera 25-26 Frente.png",
-      "/camisetas/Betis/Primera 25-26/Primera 25-26 Espalda.png",
-    ],
-  },
-
-  {
-    id: 7,
-    nombre: "Real Betis - Segunda Equipación 25-26",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Betis/Segunda 25-26/Segunda 25-26 Frente.png",
-      "/camisetas/Betis/Segunda 25-26/Segunda 25-26 Espalda.png",
-    ],
-  },
-
-  {
-    id: 8,
-    nombre: "Real Betis - Tercera Equipación 25-26",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Betis/Tercera 25-26/Tercera 25-26 Frente.png",
-      "/camisetas/Betis/Tercera 25-26/Tercera 25-26 Espalda.png",
-    ],
-  },
-
-  {
-    id: 9,
-    nombre: "Real Betis - Cuarta Equipación 25-26",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Betis/Cuarta 25-26/Cuarta 25-26 Frente.png",
-      "/camisetas/Betis/Cuarta 25-26/Cuarta 25-26 Espalda.png",
-    ],
-  },
-
-  {
-    id: 10,
-    nombre: "Córdoba CF - Primera Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Cordoba/Primera 26-27/Primera 26-27 Frente.png",
-      "/camisetas/Cordoba/Primera 26-27/Primera 26-27 Espalda.png",
-    ],
-  },
-
-  {
-    id: 11,
-    nombre: "Córdoba CF - Tercera Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Cordoba/Tercera 26-27/Tercera 26-27 Frente.png",
-      "/camisetas/Cordoba/Tercera 26-27/Tercera 26-27 Espalda.png",
-    ],
-  },
-
-  {
-    id: 12,
-    nombre: "Real Madrid - Primera Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Madrid/Primera 26-27/Primera 26-27 Frente.png",
-      "/camisetas/Madrid/Primera 26-27/Primera 26-27 Espalda.png",
-    ],
-  },
-
-  {
-    id: 13,
-    nombre: "Real Madrid - Segunda Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Madrid/Segunda 26-27/Segunda 26-27 Frente.png",
-      "/camisetas/Madrid/Segunda 26-27/Segunda 26-27 Espalda.png",
-    ],
-  },
-
-  {
-    id: 14,
-    nombre: "FC Barcelona - Primera Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Barcelona/Primera 26-27/Primera 26-27 Frente.png",
-      "/camisetas/Barcelona/Primera 26-27/Primera 26-27 Espalda.png",
-    ],
-  },
-
-  {
-    id: 15,
-    nombre: "FC Barcelona - Segunda Equipación 26-27",
-    precio: "19 €",
-    premium: "22 €",
-    imagenes: [
-      "/camisetas/Barcelona/Segunda 26-27/Segunda 26-27 Frente.png",
-      "/camisetas/Barcelona/Segunda 26-27/Segunda 26-27 Espalda.png",
+    nombre: "Selecciones",
+    equipos: [
+      {
+        nombre: "España",
+        camisetas: [
+          {
+            id: 13,
+            nombre: "España - Roja",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Selecciones/España/Roja/Roja frente.png",
+              "/camisetas/Selecciones/España/Roja/Roja espalda.png",
+            ],
+          },
+          {
+            id: 14,
+            nombre: "España - Blanca",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Selecciones/España/Blanca/Blanca frente.png",
+              "/camisetas/Selecciones/España/Blanca/Blanca espalda.png",
+            ],
+          },
+          {
+            id: 15,
+            nombre: "España - Exclusiva",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Selecciones/España/Exclusiva/Exclusiva frente.png",
+              "/camisetas/Selecciones/España/Exclusiva/Exclusiva espalda.png",
+            ],
+          },
+        ],
+      },
     ],
   },
 ];
