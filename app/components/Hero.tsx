@@ -15,10 +15,25 @@ export default function Hero() {
   }>({});
 
   const [busqueda, setBusqueda] = useState("");
+  const [categoria, setCategoria] = useState("Todas");
 
-  const camisetasFiltradas = camisetas.filter((camiseta) =>
-    camiseta.nombre.toLowerCase().includes(busqueda.toLowerCase())
+  const todasLasCamisetas = camisetas.flatMap((categoria: any) =>
+  categoria.equipos.flatMap((equipo: any) =>
+    equipo.camisetas
+  )
+);
+ const camisetasFiltradas = todasLasCamisetas.filter((camiseta: any) => {
+  const coincideBusqueda = camiseta.nombre
+    .toLowerCase()
+    .includes(busqueda.toLowerCase());
+
+  if (categoria === "Todas") return coincideBusqueda;
+
+  return (
+    coincideBusqueda &&
+    camiseta.imagenes[0].toLowerCase().includes(categoria.toLowerCase())
   );
+});
 
   return (
     <section
@@ -84,7 +99,33 @@ export default function Hero() {
             background: "#fff",
           }}
         />
-
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "10px",
+    flexWrap: "wrap",
+    marginBottom: "30px",
+  }}
+>
+  {["Todas", "LaLiga", "Segunda division", "Selecciones"].map((c) => (
+    <button
+      key={c}
+      onClick={() => setCategoria(c)}
+      style={{
+        padding: "10px 18px",
+        borderRadius: "999px",
+        border: "none",
+        cursor: "pointer",
+        background: categoria === c ? "#2d241b" : "#d8c7af",
+        color: "#fff",
+        fontWeight: "bold",
+      }}
+    >
+      {c}
+    </button>
+  ))}
+</div>
         <div
           style={{
             maxWidth: "760px",
@@ -129,7 +170,7 @@ export default function Hero() {
             gap: "30px",
           }}
         >
-          {camisetasFiltradas.map((camiseta) => (
+          {camisetasFiltradas.map((camiseta: any) => (
             <div
               key={camiseta.id}
               style={{
@@ -154,7 +195,6 @@ export default function Hero() {
                   width: "100%",
                   borderRadius: "12px",
                   cursor: "pointer",
-                  transition: "0.3s",
                 }}
               />
 
