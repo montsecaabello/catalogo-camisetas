@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Gol Shirt",
   description: "Catálogo de camisetas de fútbol",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
