@@ -181,6 +181,41 @@ export const camisetas = [
           },
         ],
       },
+      {
+        nombre: "Atlético de Madrid",
+        camisetas: [
+          {
+            id: 21,
+            nombre: "Atlético de Madrid - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Atlético de Madrid/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/LaLiga/Atlético de Madrid/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 22,
+            nombre: "Atlético de Madrid - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Atlético de Madrid/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/LaLiga/Atlético de Madrid/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 23,
+            nombre: "Atlético de Madrid - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Atlético de Madrid/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/LaLiga/Atlético de Madrid/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
     ],
   },
   {
