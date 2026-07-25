@@ -2,7 +2,8 @@ export const camisetas = [
   {
     nombre: "LaLiga",
     equipos: [
-      {
+      
+       {
         nombre: "Barcelona",
         camisetas: [
           {
@@ -11,9 +12,9 @@ export const camisetas = [
             precio: "19 €",
             premium: "22 €",
             imagenes: [
-  "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Frente.png",
-  "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Espalda.png",
-],
+              "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
           },
           {
             id: 2,
@@ -23,6 +24,76 @@ export const camisetas = [
             imagenes: [
               "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Frente.png",
               "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 32,
+            nombre: "Barcelona - Tercera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Tercera 26-27/Tercera 26-27 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Tercera 26-27/Tercera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 33,
+            nombre: "Barcelona - Edición especial 1",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 1/Especial 1 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 1/Especial 1 Espalda.png",
+            ],
+          },
+          {
+            id: 34,
+            nombre: "Barcelona - Edición especial 2",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 2/Especial 2 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 2/Especial 2 Espalda.png",
+            ],
+          },
+          {
+            id: 35,
+            nombre: "Barcelona - Edición especial 3",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 3/Especial 3 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 3/Especial 3 Espalda.png",
+            ],
+          },
+          {
+            id: 36,
+            nombre: "Barcelona - Edición especial 4",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 4/Especial 4 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 4/Especial 4 Espalda.png",
+            ],
+          },
+          {
+            id: 37,
+            nombre: "Barcelona - Edición especial 5",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 5/Especial 5 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 5/Especial 5 Espalda.png",
+            ],
+          },
+          {
+            id: 38,
+            nombre: "Barcelona - Edición especial 6",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 6/Especial 6 Frente.png",
+              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 6/Especial 6 Espalda.png",
             ],
           },
         ],
@@ -212,6 +283,40 @@ export const camisetas = [
             imagenes: [
               "/camisetas/LaLiga/Atlético de Madrid/Segunda 26-27/Segunda 26-27 Frente.png",
               "/camisetas/LaLiga/Atlético de Madrid/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      }, {
+        nombre: "Valencia",
+        camisetas: [
+          {
+            id: 29,
+            nombre: "Valencia - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Valencia/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/LaLiga/Valencia/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 30,
+            nombre: "Valencia - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Valencia/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/LaLiga/Valencia/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 31,
+            nombre: "Valencia - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Valencia/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/LaLiga/Valencia/Primera 26-27/Primera 26-27 Espalda.png",
             ],
           },
         ],
