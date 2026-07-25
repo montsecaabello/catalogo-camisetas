@@ -219,7 +219,7 @@ export const camisetas = [
     ],
   },
   {
-    nombre: "Segunda división",
+    nombre: "Liga Hipermotion",
     equipos: [
       {
         nombre: "Cordoba",
@@ -230,8 +230,8 @@ export const camisetas = [
             precio: "19 €",
             premium: "22 €",
             imagenes: [
-              "/camisetas/Segunda division/Cordoba/Primera 26-27/Primera 26-27 Frente.png",
-              "/camisetas/Segunda division/Cordoba/Primera 26-27/Primera 26-27 Espalda.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Primera 26-27/Primera 26-27 Espalda.png",
             ],
           },
           {
@@ -240,15 +240,70 @@ export const camisetas = [
             precio: "19 €",
             premium: "22 €",
             imagenes: [
-              "/camisetas/Segunda division/Cordoba/Tercera 26-27/Tercera 26-27 Frente.png",
-              "/camisetas/Segunda division/Cordoba/Tercera 26-27/Tercera 26-27 Espalda.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Tercera 26-27/Tercera 26-27 Frente.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Tercera 26-27/Tercera 26-27 Espalda.png",
             ],
           },
         ],
       },
-    ],
-  },
-
+      
+       {
+        nombre: "Cádiz",
+        camisetas: [
+          {
+            id: 24,
+            nombre: "Cádiz - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cádiz/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cádiz/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 25,
+            nombre: "Cádiz - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cádiz/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cádiz/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 26,
+            nombre: "Cádiz - Tercera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cádiz/Tercera 25-26/Tercera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cádiz/Tercera 25-26/Tercera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 27,
+            nombre: "Cádiz - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cádiz/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/Liga Hipermotion/Cádiz/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 28,
+            nombre: "Cádiz - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cádiz/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/Liga Hipermotion/Cádiz/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
+      ],
+     },
   {
     nombre: "Selecciones",
     equipos: [
@@ -291,5 +346,4 @@ export const camisetas = [
       },
     ],
   },
-];
- 
+]
