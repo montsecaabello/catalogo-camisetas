@@ -16,24 +16,27 @@ export default function Hero() {
 
   const [busqueda, setBusqueda] = useState("");
   const [categoria, setCategoria] = useState("Todas");
+const [equipo, setEquipo] = useState("Todos");
+const [pantalla, setPantalla] = useState("categorias");
 
-  const todasLasCamisetas = camisetas.flatMap((categoria: any) =>
-  categoria.equipos.flatMap((equipo: any) =>
-    equipo.camisetas
-  )
-);
- const camisetasFiltradas = todasLasCamisetas.filter((camiseta: any) => {
-  const coincideBusqueda = camiseta.nombre
-    .toLowerCase()
-    .includes(busqueda.toLowerCase());
+  const categoriaActual =
+  categoria === "Todas"
+    ? null
+    : camisetas.find((c: any) => c.nombre === categoria);
 
-  if (categoria === "Todas") return coincideBusqueda;
+const equipos =
+  categoriaActual?.equipos || [];
 
-  return (
-    coincideBusqueda &&
-    camiseta.imagenes[0].toLowerCase().includes(categoria.toLowerCase())
-  );
-});
+const camisetasFiltradas =
+  equipo === "Todos"
+    ? []
+    : equipos
+        .find((e: any) => e.nombre === equipo)
+        ?.camisetas.filter((camiseta: any) =>
+          camiseta.nombre
+            .toLowerCase()
+            .includes(busqueda.toLowerCase())
+        ) || [];
 
   return (
     <section
@@ -99,156 +102,226 @@ export default function Hero() {
             background: "#fff",
           }}
         />
+{pantalla === "categorias" && (
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+      gap: "20px",
+      marginBottom: "30px",
+    }}
+  >
+    {camisetas.map((cat: any) => (
+      <div
+        key={cat.nombre}
+        onClick={() => {
+          setCategoria(cat.nombre);
+          setEquipo("Todos");
+          setPantalla("equipos");
+        }}
+        style={{
+          background: "#fffaf4",
+          border: "1px solid #e6d8c3",
+          borderRadius: "16px",
+          padding: "35px",
+          cursor: "pointer",
+          fontSize: "26px",
+          fontWeight: "bold",
+          boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+        }}
+      >
+        {cat.nombre}
+      </div>
+    ))}
+  </div>
+)}
 <div
   style={{
-    display: "flex",
-    justifyContent: "center",
-    gap: "10px",
-    flexWrap: "wrap",
-    marginBottom: "30px",
+    maxWidth: "760px",
+    margin: "0 auto 40px",
+    background: "#fffaf4",
+    border: "1px solid #e6d8c3",
+    borderRadius: "16px",
+    padding: "22px",
+    boxShadow: "0 8px 20px rgba(0,0,0,0.06)",
   }}
 >
-  {["Todas", "LaLiga", "Segunda division", "Selecciones"].map((c) => (
+  <h3
+    style={{
+      margin: "0 0 12px",
+      color: "#2d241b",
+      fontSize: "22px",
+    }}
+  >
+    ⚽ ¿No encuentras la camiseta que buscas?
+  </h3>
+
+  <p
+    style={{
+      margin: 0,
+      color: "#5d4d3d",
+      lineHeight: "1.8",
+      fontSize: "16px",
+    }}
+  >
+    Disponemos de <strong>cientos de equipos, selecciones y temporadas</strong>,
+    aunque todavía no estén publicados en la web.
+    <br />
+    Si no encuentras el modelo que buscas, <strong>escríbenos por WhatsApp</strong> y te ayudaremos a encontrarlo.
+  </p>
+</div>
+     {pantalla === "equipos" && (
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "20px",
+      marginBottom: "40px",
+    }}
+  >
     <button
-      key={c}
-      onClick={() => setCategoria(c)}
+      onClick={() => setPantalla("categorias")}
       style={{
-        padding: "10px 18px",
-        borderRadius: "999px",
+        gridColumn: "1 / -1",
+        padding: "12px",
+        borderRadius: "10px",
         border: "none",
         cursor: "pointer",
-        background: categoria === c ? "#2d241b" : "#d8c7af",
+        background: "#2d241b",
         color: "#fff",
         fontWeight: "bold",
       }}
     >
-      {c}
+      ← Volver a categorías
     </button>
-  ))}
-</div>
+
+    {equipos.map((e: any) => (
+      <div
+        key={e.nombre}
+        onClick={() => {
+          setEquipo(e.nombre);
+          setPantalla("camisetas");
+        }}
+        style={{
+          background: "#fffaf4",
+          border: "1px solid #e6d8c3",
+          borderRadius: "16px",
+          padding: "30px",
+          cursor: "pointer",
+          textAlign: "center",
+          fontSize: "24px",
+          fontWeight: "bold",
+          boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+        }}
+      >
+        {e.nombre}
+      </div>
+    ))}
+  </div>
+)}
+       {pantalla === "camisetas" && (
+  <>
+    <button
+      onClick={() => {
+        setPantalla("equipos");
+        setEquipo("Todos");
+      }}
+      style={{
+        marginBottom: "30px",
+        padding: "12px 20px",
+        border: "none",
+        borderRadius: "10px",
+        background: "#2d241b",
+        color: "#fff",
+        cursor: "pointer",
+        fontWeight: "bold",
+      }}
+    >
+      ← Volver a equipos
+    </button>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+        gap: "30px",
+      }}
+    >
+      {camisetasFiltradas.map((camiseta: any) => (
         <div
+          key={camiseta.id}
           style={{
-            maxWidth: "760px",
-            margin: "0 auto 50px",
             background: "#fffaf4",
+            borderRadius: "18px",
+            padding: "20px",
+            boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
             border: "1px solid #e6d8c3",
-            borderRadius: "16px",
-            padding: "22px",
-            boxShadow: "0 8px 20px rgba(0,0,0,0.06)",
           }}
         >
-          <h3
+          <img
+            src={camiseta.imagenes[imagenActiva[camiseta.id] || 0]}
+            alt={camiseta.nombre}
+            onClick={() =>
+              setImagenActiva({
+                ...imagenActiva,
+                [camiseta.id]:
+                  (imagenActiva[camiseta.id] || 0) === 0 ? 1 : 0,
+              })
+            }
             style={{
-              margin: "0 0 12px",
-              color: "#2d241b",
-              fontSize: "22px",
+              width: "100%",
+              borderRadius: "12px",
+              cursor: "pointer",
             }}
-          >
-            ⚽ ¿No encuentras la camiseta que buscas?
-          </h3>
+          />
 
           <p
             style={{
-              margin: 0,
-              color: "#5d4d3d",
-              lineHeight: "1.8",
-              fontSize: "16px",
+              marginTop: "8px",
+              fontSize: "13px",
+              color: "#8b7355",
             }}
           >
-            Disponemos de <strong>cientos de equipos, selecciones y temporadas</strong>,
-            aunque todavía no estén publicados en la web.
-            <br />
-            Si no encuentras el modelo que buscas, <strong>escríbenos por WhatsApp</strong> y
-            te ayudaremos a encontrarlo.
+            Pulsa la imagen para ver la parte trasera.
+          </p>
+
+          <h2
+            style={{
+              marginTop: "18px",
+              color: "#2d241b",
+            }}
+          >
+            {camiseta.nombre}
+          </h2>
+
+          <p
+            style={{
+              fontSize: "20px",
+              fontWeight: "700",
+              color: "#8a6b3f",
+            }}
+          >
+            Desde {camiseta.precio}
+          </p>
+
+          <p>⭐ Calidad Premium</p>
+
+          <p
+            style={{
+              color: "#7b6b58",
+              fontSize: "14px",
+              lineHeight: "1.6",
+            }}
+          >
+            Incluye 1 o 2 parches a elegir. Si quieres añadir nombre,
+            dorsal o personalización, escríbenos por WhatsApp.
           </p>
         </div>
-
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-            gap: "30px",
-          }}
-        >
-          {camisetasFiltradas.map((camiseta: any) => (
-            <div
-              key={camiseta.id}
-              style={{
-                background: "#fffaf4",
-                borderRadius: "18px",
-                padding: "20px",
-                boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
-                border: "1px solid #e6d8c3",
-              }}
-            >
-              <img
-                src={camiseta.imagenes[imagenActiva[camiseta.id] || 0]}
-                alt={camiseta.nombre}
-                onClick={() =>
-                  setImagenActiva({
-                    ...imagenActiva,
-                    [camiseta.id]:
-                      (imagenActiva[camiseta.id] || 0) === 0 ? 1 : 0,
-                  })
-                }
-                style={{
-                  width: "100%",
-                  borderRadius: "12px",
-                  cursor: "pointer",
-                }}
-              />
-
-              <p
-                style={{
-                  marginTop: "8px",
-                  fontSize: "13px",
-                  color: "#8b7355",
-                }}
-              >
-                Pulsa la imagen para ver la parte trasera.
-              </p>
-
-              <h2
-                style={{
-                  marginTop: "18px",
-                  color: "#2d241b",
-                }}
-              >
-                {camiseta.nombre}
-              </h2>
-
-              <p
-                style={{
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  color: "#8a6b3f",
-                }}
-              >
-                Desde {camiseta.precio}
-              </p>
-
-              <p
-                style={{
-                  color: "#4f4336",
-                }}
-              >
-                ⭐ Calidad Premium
-              </p>
-
-              <p
-                style={{
-                  color: "#7b6b58",
-                  fontSize: "14px",
-                  lineHeight: "1.6",
-                }}
-              >
-                Incluye 1 o 2 parches a elegir. Si quieres añadir nombre,
-                dorsal, número o más detalles, escríbenos por WhatsApp.
-              </p>
-            </div>
-          ))}
-        </div>
-      </div>
+      ))}
+    </div>
+  </>
+)}
+    </div>
 
       <a
         href="https://wa.me/34640814023?text=Hola,%20he%20visto%20la%20web%20de%20Gol%20Shirt%20y%20me%20gustar%C3%ADa%20consultar%20por%20una%20camiseta."
