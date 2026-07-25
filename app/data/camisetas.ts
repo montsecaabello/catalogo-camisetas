@@ -119,9 +119,70 @@ export const camisetas = [
           },
         ],
       },
+
+      {
+        nombre: "Sevilla",
+        camisetas: [
+          {
+            id: 16,
+            nombre: "Sevilla - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Sevilla/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/LaLiga/Sevilla/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 17,
+            nombre: "Sevilla - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Sevilla/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/LaLiga/Sevilla/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
+
+      {
+        nombre: "Malaga",
+        camisetas: [
+          {
+            id: 18,
+            nombre: "Malaga - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Malaga/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/LaLiga/Malaga/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 19,
+            nombre: "Malaga - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Malaga/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/LaLiga/Malaga/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 20,
+            nombre: "Malaga - Abonados 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/LaLiga/Malaga/Abonados 26-27/Abonados 26-27 Frente.png",
+              "/camisetas/LaLiga/Malaga/Abonados 26-27/Abonados 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
     ],
   },
-
   {
     nombre: "Segunda división",
     equipos: [
@@ -187,6 +248,8 @@ export const camisetas = [
             imagenes: [
               "/camisetas/Selecciones/España/Exclusiva/Exclusiva frente.png",
               "/camisetas/Selecciones/España/Exclusiva/Exclusiva espalda.png",
+          
+ 
             ],
           },
         ],
@@ -194,3 +257,4 @@ export const camisetas = [
     ],
   },
 ];
+ 
