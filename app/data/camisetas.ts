@@ -218,40 +218,120 @@ export const camisetas = [
       },
 
       {
-        nombre: "Malaga",
-        camisetas: [
-          {
-            id: 18,
-            nombre: "Malaga - Primera 26-27",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Malaga/Primera 26-27/Primera 26-27 Frente.png",
-              "/camisetas/LaLiga/Malaga/Primera 26-27/Primera 26-27 Espalda.png",
-            ],
-          },
-          {
-            id: 19,
-            nombre: "Malaga - Segunda 26-27",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Malaga/Segunda 26-27/Segunda 26-27 Frente.png",
-              "/camisetas/LaLiga/Malaga/Segunda 26-27/Segunda 26-27 Espalda.png",
-            ],
-          },
-          {
-            id: 20,
-            nombre: "Malaga - Abonados 26-27",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Malaga/Abonados 26-27/Abonados 26-27 Frente.png",
-              "/camisetas/LaLiga/Malaga/Abonados 26-27/Abonados 26-27 Espalda.png",
-            ],
-          },
-        ],
-      },
+  nombre: "Malaga",
+  camisetas: [
+    {
+      id: 44,
+      nombre: "Malaga - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Malaga/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 45,
+      nombre: "Malaga - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Malaga/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 46,
+      nombre: "Malaga - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/LaLiga/Malaga/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 47,
+      nombre: "Malaga - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/LaLiga/Malaga/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 48,
+      nombre: "Malaga - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/LaLiga/Malaga/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 49,
+      nombre: "Malaga - Abonados 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Abonados 26-27/Abonados 26-27 Frente.png",
+        "/camisetas/LaLiga/Malaga/Abonados 26-27/Abonados 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 50,
+      nombre: "Malaga - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/LaLiga/Malaga/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+    {
+      id: 51,
+      nombre: "Malaga - Retro 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Retro/Retro 2/Retro 2 Frente.png",
+        "/camisetas/LaLiga/Malaga/Retro/Retro 2/Retro 2 Espalda.png",
+      ],
+    },
+    {
+      id: 52,
+      nombre: "Malaga - Retro 3",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Retro/Retro 3/Retro 3 Frente.png",
+        "/camisetas/LaLiga/Malaga/Retro/Retro 3/Retro 3 Espalda.png",
+      ],
+    },
+    {
+      id: 53,
+      nombre: "Malaga - Retro 4",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Retro/Retro 4/Retro 4 Frente.png",
+        "/camisetas/LaLiga/Malaga/Retro/Retro 4/Retro 4 Espalda.png",
+      ],
+    },
+    {
+      id: 54,
+      nombre: "Malaga - Retro 5",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Malaga/Retro/Retro 5/Retro 5 Frente.png",
+        "/camisetas/LaLiga/Malaga/Retro/Retro 5/Retro 5 Espalda.png",
+      ],
+    },
+  ],
+},
       {
         nombre: "Atlético de Madrid",
         camisetas: [
@@ -347,6 +427,56 @@ export const camisetas = [
             imagenes: [
               "/camisetas/Liga Hipermotion/Cordoba/Tercera 26-27/Tercera 26-27 Frente.png",
               "/camisetas/Liga Hipermotion/Cordoba/Tercera 26-27/Tercera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 39,
+            nombre: "Cordoba - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cordoba/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 40,
+            nombre: "Cordoba - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cordoba/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 41,
+            nombre: "Cordoba - Tercera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cordoba/Tercera 25-26/Tercera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Tercera 25-26/Tercera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 42,
+            nombre: "Cordoba - Retro 1",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cordoba/Retro/Retro 1/Retro 1 Frente.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Retro/Retro 1/Retro 1 Espalda.png",
+            ],
+          },
+          {
+            id: 43,
+            nombre: "Cordoba - Retro 2",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cordoba/Retro/Retro 2/Retro 2 Frente.png",
+              "/camisetas/Liga Hipermotion/Cordoba/Retro/Retro 2/Retro 2 Espalda.png",
             ],
           },
         ],
