@@ -968,31 +968,6 @@ export const camisetas = [
         ],
       },
       {
-        nombre: "Cultural y Deportiva Leonesa",
-        camisetas: [
-          {
-            id: 85,
-            nombre: "Cultural y Deportiva Leonesa - Primera 25-26",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Primera 25-26/Primera 25-26 Frente.png",
-              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Primera 25-26/Primera 25-26 Espalda.png",
-            ],
-          },
-          {
-            id: 86,
-            nombre: "Cultural y Deportiva Leonesa - Segunda 25-26",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Segunda 25-26/Segunda 25-26 Frente.png",
-              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Segunda 25-26/Segunda 25-26 Espalda.png",
-            ],
-          },
-        ],
-      },
-      {
         nombre: "Granada",
         camisetas: [
           {
@@ -1212,6 +1187,81 @@ export const camisetas = [
       imagenes: [
         "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 3/Especial 3 Frente.png",
         "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 3/Especial 3 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Tenerife",
+  camisetas: [
+    {
+      id: 106,
+      nombre: "Tenerife - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Tenerife/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Tenerife/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 107,
+      nombre: "Tenerife - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Tenerife/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Tenerife/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 108,
+      nombre: "Tenerife - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Tenerife/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Tenerife/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 109,
+      nombre: "Tenerife - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Tenerife/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Tenerife/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 110,
+      nombre: "Tenerife - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Tenerife/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Tenerife/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+    {
+      id: 111,
+      nombre: "Tenerife - Retro 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Tenerife/Retro/Retro 2/Retro 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Tenerife/Retro/Retro 2/Retro 2 Espalda.png",
+      ],
+    },
+    {
+      id: 112,
+      nombre: "Tenerife - Especial 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Tenerife/Especial/Especial 1/Especial 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Tenerife/Especial/Especial 1/Especial 1 Espalda.png",
       ],
     },
   ],
