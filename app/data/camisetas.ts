@@ -707,6 +707,291 @@ export const camisetas = [
           },
         ],
       },
+      {
+        nombre: "Ceuta",
+        camisetas: [
+          {
+            id: 69,
+            nombre: "Ceuta - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Ceuta/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Ceuta/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 70,
+            nombre: "Ceuta - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Ceuta/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Ceuta/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 71,
+            nombre: "Ceuta - Retro 1",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Ceuta/Retro/Retro 1/Retro 1 Frente.png",
+              "/camisetas/Liga Hipermotion/Ceuta/Retro/Retro 1/Retro 1 Espalda.png",
+            ],
+          },
+        ],
+      },
+      {
+        nombre: "Albacete",
+        camisetas: [
+          {
+            id: 72,
+            nombre: "Albacete - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Albacete/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Albacete/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 73,
+            nombre: "Albacete - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Albacete/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Albacete/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 74,
+            nombre: "Albacete - Tercera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Albacete/Tercera 25-26/Tercera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Albacete/Tercera 25-26/Tercera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 75,
+            nombre: "Albacete - Retro 1",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Albacete/Retro/Retro 1/Retro 1 Frente.png",
+              "/camisetas/Liga Hipermotion/Albacete/Retro/Retro 1/Retro 1 Espalda.png",
+            ],
+          },
+        ],
+      },
+      {
+        nombre: "Burgos",
+        camisetas: [
+          {
+            id: 76,
+            nombre: "Burgos - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Burgos/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Burgos/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 77,
+            nombre: "Burgos - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Burgos/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Burgos/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 78,
+            nombre: "Burgos - Primera 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Burgos/Primera 26-27/Primera 26-27 Frente.png",
+              "/camisetas/Liga Hipermotion/Burgos/Primera 26-27/Primera 26-27 Espalda.png",
+            ],
+          },
+          {
+            id: 79,
+            nombre: "Burgos - Segunda 26-27",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Burgos/Segunda 26-27/Segunda 26-27 Frente.png",
+              "/camisetas/Liga Hipermotion/Burgos/Segunda 26-27/Segunda 26-27 Espalda.png",
+            ],
+          },
+        ],
+      },
+      {
+        nombre: "Castellón",
+        camisetas: [
+          {
+            id: 80,
+            nombre: "Castellón - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Castellón/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Castellón/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 81,
+            nombre: "Castellón - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Castellón/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Castellón/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 82,
+            nombre: "Castellón - Retro 1",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Castellón/Retro/Retro 1/Retro 1 Frente.png",
+              "/camisetas/Liga Hipermotion/Castellón/Retro/Retro 1/Retro 1 Espalda.png",
+            ],
+          },
+        ],
+      },
+      {
+        nombre: "Leganés",
+        camisetas: [
+          {
+            id: 83,
+            nombre: "Leganés - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Leganés/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Leganés/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 84,
+            nombre: "Leganés - Retro 1",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Leganés/Retro/Retro 1/Retro 1 Frente.png",
+              "/camisetas/Liga Hipermotion/Leganés/Retro/Retro 1/Retro 1 Espalda.png",
+            ],
+          },
+        ],
+      },
+      {
+        nombre: "Cultural y Deportiva Leonesa",
+        camisetas: [
+          {
+            id: 85,
+            nombre: "Cultural y Deportiva Leonesa - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 86,
+            nombre: "Cultural y Deportiva Leonesa - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Cultural y Deportiva Leonesa/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+        ],
+      },
+      {
+        nombre: "Granada",
+        camisetas: [
+          {
+            id: 87,
+            nombre: "Granada - Primera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Granada/Primera 25-26/Primera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Granada/Primera 25-26/Primera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 88,
+            nombre: "Granada - Segunda 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Granada/Segunda 25-26/Segunda 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Granada/Segunda 25-26/Segunda 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 89,
+            nombre: "Granada - Tercera 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Granada/Tercera 25-26/Tercera 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Granada/Tercera 25-26/Tercera 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 90,
+            nombre: "Granada - Cuarta 25-26",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Granada/Cuarta 25-26/Cuarta 25-26 Frente.png",
+              "/camisetas/Liga Hipermotion/Granada/Cuarta 25-26/Cuarta 25-26 Espalda.png",
+            ],
+          },
+          {
+            id: 91,
+            nombre: "Granada - Retro 1",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Granada/Retro/Retro 1/Retro 1 Frente.png",
+              "/camisetas/Liga Hipermotion/Granada/Retro/Retro 1/Retro 1 Espalda.png",
+            ],
+          },
+          {
+            id: 92,
+            nombre: "Granada - Retro 2",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Granada/Retro/Retro 2/Retro 2 Frente.png",
+              "/camisetas/Liga Hipermotion/Granada/Retro/Retro 2/Retro 2 Espalda.png",
+            ],
+          },
+          {
+            id: 93,
+            nombre: "Granada - Retro 3",
+            precio: "19 €",
+            premium: "22 €",
+            imagenes: [
+              "/camisetas/Liga Hipermotion/Granada/Retro/Retro 3/Retro 3 Frente.png",
+              "/camisetas/Liga Hipermotion/Granada/Retro/Retro 3/Retro 3 Espalda.png",
+            ],
+          },
+        ],
+      },
       ],
      },
   {
