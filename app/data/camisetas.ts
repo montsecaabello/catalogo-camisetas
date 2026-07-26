@@ -1509,6 +1509,170 @@ export const camisetas = [
       ],
     },
   ],
+},{
+  nombre: "Oviedo",
+  camisetas: [
+    {
+      id: 136,
+      nombre: "Oviedo - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 137,
+      nombre: "Oviedo - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 138,
+      nombre: "Oviedo - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 139,
+      nombre: "Oviedo - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 140,
+      nombre: "Oviedo - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 141,
+      nombre: "Oviedo - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+    {
+      id: 142,
+      nombre: "Oviedo - Retro 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 2/Retro 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 2/Retro 2 Espalda.png",
+      ],
+    },
+    {
+      id: 143,
+      nombre: "Oviedo - Retro 3",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 3/Retro 3 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 3/Retro 3 Espalda.png",
+      ],
+    },
+    {
+      id: 144,
+      nombre: "Oviedo - Retro 4",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 4/Retro 4 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 4/Retro 4 Espalda.png",
+      ],
+    },
+    {
+      id: 145,
+      nombre: "Oviedo - Retro 5",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 5/Retro 5 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 5/Retro 5 Espalda.png",
+      ],
+    },
+    {
+      id: 146,
+      nombre: "Oviedo - Retro 6",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 6/Retro 6 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 6/Retro 6 Espalda.png",
+      ],
+    },
+    {
+      id: 147,
+      nombre: "Oviedo - Retro 7",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 7/Retro 7 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 7/Retro 7 Espalda.png",
+      ],
+    },
+    {
+      id: 148,
+      nombre: "Oviedo - Retro 8",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 8/Retro 8 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 8/Retro 8 Espalda.png",
+      ],
+    },
+    {
+      id: 149,
+      nombre: "Oviedo - Retro 9",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 9/Retro 9 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Retro/Retro 9/Retro 9 Espalda.png",
+      ],
+    },
+    {
+      id: 150,
+      nombre: "Oviedo - Especial 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Especial/Especial 1/Especial 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Especial/Especial 1/Especial 1 Espalda.png",
+      ],
+    },
+    {
+      id: 151,
+      nombre: "Oviedo - Especial 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Oviedo/Especial/Especial 2/Especial 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Oviedo/Especial/Especial 2/Especial 2 Espalda.png",
+      ],
+    },
+  ],
 },
       ],
      },
