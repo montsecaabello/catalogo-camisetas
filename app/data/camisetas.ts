@@ -1230,8 +1230,8 @@ export const camisetas = [
             precio: "19 €",
             premium: "22 €",
             imagenes: [
-              "/camisetas/Mundial 2026/España/Roja/Roja frente.png",
-              "/camisetas/Mundial 2026/España/Roja/Roja espalda.png",
+              "/camisetas/Mundial 2026/españa/Roja/Roja frente.png",
+              "/camisetas/Mundial 2026/españa/Roja/Roja espalda.png",
             ],
           },
           {
@@ -1240,8 +1240,8 @@ export const camisetas = [
             precio: "19 €",
             premium: "22 €",
             imagenes: [
-              "/camisetas/Mundial 2026/España/Blanca/Blanca frente.png",
-              "/camisetas/Mundial 2026/España/Blanca/Blanca espalda.png",
+              "/camisetas/Mundial 2026/españa/Blanca/Blanca frente.png",
+              "/camisetas/Mundial 2026/españa/Blanca/Blanca espalda.png",
             ],
           },
           {
@@ -1250,8 +1250,8 @@ export const camisetas = [
             precio: "19 €",
             premium: "22 €",
             imagenes: [
-              "/camisetas/Mundial 2026/España/Exclusiva/Exclusiva frente.png",
-              "/camisetas/Mundial 2026/España/Exclusiva/Exclusiva espalda.png",
+              "/camisetas/Mundial 2026/españa/Exclusiva/Exclusiva frente.png",
+              "/camisetas/Mundial 2026/españa/Exclusiva/Exclusiva espalda.png",
           
  
             ],
