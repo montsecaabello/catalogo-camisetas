@@ -1435,6 +1435,80 @@ export const camisetas = [
       ],
     },
   ],
+},{
+  nombre: "Mallorca",
+  camisetas: [
+    {
+      id: 129,
+      nombre: "Mallorca - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Mallorca/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Mallorca/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 130,
+      nombre: "Mallorca - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Mallorca/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Mallorca/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 131,
+      nombre: "Mallorca - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Mallorca/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Mallorca/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 132,
+      nombre: "Mallorca - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Mallorca/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Mallorca/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 133,
+      nombre: "Mallorca - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Mallorca/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Mallorca/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+    {
+      id: 134,
+      nombre: "Mallorca - Retro 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Mallorca/Retro/Retro 2/Retro 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Mallorca/Retro/Retro 2/Retro 2 Espalda.png",
+      ],
+    },
+    {
+      id: 135,
+      nombre: "Mallorca - Retro 3",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Mallorca/Retro/Retro 3/Retro 3 Frente.png",
+        "/camisetas/Liga Hipermotion/Mallorca/Retro/Retro 3/Retro 3 Espalda.png",
+      ],
+    },
+  ],
 },
       ],
      },
