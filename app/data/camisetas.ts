@@ -1266,6 +1266,176 @@ export const camisetas = [
     },
   ],
 },
+{
+  nombre: "Girona",
+  camisetas: [
+    {
+      id: 113,
+      nombre: "Girona - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Girona/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Girona/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 114,
+      nombre: "Girona - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Girona/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Girona/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 115,
+      nombre: "Girona - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Girona/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Girona/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Celta de Vigo",
+  camisetas: [
+    {
+      id: 116,
+      nombre: "Celta de Vigo - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 117,
+      nombre: "Celta de Vigo - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 118,
+      nombre: "Celta de Vigo - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 119,
+      nombre: "Celta de Vigo - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 120,
+      nombre: "Celta de Vigo - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 121,
+      nombre: "Celta de Vigo - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+    {
+      id: 122,
+      nombre: "Celta de Vigo - Retro 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 2/Retro 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 2/Retro 2 Espalda.png",
+      ],
+    },
+    {
+      id: 123,
+      nombre: "Celta de Vigo - Retro 3",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 3/Retro 3 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 3/Retro 3 Espalda.png",
+      ],
+    },
+    {
+      id: 124,
+      nombre: "Celta de Vigo - Retro 4",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 4/Retro 4 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 4/Retro 4 Espalda.png",
+      ],
+    },
+    {
+      id: 125,
+      nombre: "Celta de Vigo - Retro 5",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 5/Retro 5 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 5/Retro 5 Espalda.png",
+      ],
+    },
+    {
+      id: 126,
+      nombre: "Celta de Vigo - Retro 6",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 6/Retro 6 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 6/Retro 6 Espalda.png",
+      ],
+    },
+    {
+      id: 127,
+      nombre: "Celta de Vigo - Retro 7",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 7/Retro 7 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 7/Retro 7 Espalda.png",
+      ],
+    },
+    {
+      id: 128,
+      nombre: "Celta de Vigo - Retro 8",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 8/Retro 8 Frente.png",
+        "/camisetas/Liga Hipermotion/Celta de Vigo/Retro/Retro 8/Retro 8 Espalda.png",
+      ],
+    },
+  ],
+},
       ],
      },
   {
