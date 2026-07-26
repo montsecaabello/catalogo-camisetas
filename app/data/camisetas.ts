@@ -500,6 +500,26 @@ export const camisetas = [
         "/camisetas/LaLiga/Malaga/Retro/Retro 5/Retro 5 Espalda.png",
       ],
     },
+    {
+  id: 94,
+  nombre: "Malaga - Especial 1",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Malaga/Especial/Especial 1/Especial 1 Frente.png",
+    "/camisetas/LaLiga/Malaga/Especial/Especial 1/Especial 1 Espalda.png",
+  ],
+},
+{
+  id: 95,
+  nombre: "Malaga - Especial 2",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Malaga/Especial/Especial 2/Especial 2 Frente.png",
+    "/camisetas/LaLiga/Malaga/Especial/Especial 2/Especial 2 Espalda.png",
+  ],
+},
   ],
 },
       {
@@ -571,6 +591,61 @@ export const camisetas = [
           },
         ],
       },
+      {
+  nombre: "Real Sociedad",
+  camisetas: [
+    {
+      id: 96,
+      nombre: "Real Sociedad - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Real Sociedad/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Real Sociedad/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 97,
+      nombre: "Real Sociedad - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Real Sociedad/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Real Sociedad/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 98,
+      nombre: "Real Sociedad - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Real Sociedad/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/LaLiga/Real Sociedad/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 99,
+      nombre: "Real Sociedad - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Real Sociedad/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/LaLiga/Real Sociedad/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+    {
+      id: 100,
+      nombre: "Real Sociedad - Retro 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Real Sociedad/Retro/Retro 2/Retro 2 Frente.png",
+        "/camisetas/LaLiga/Real Sociedad/Retro/Retro 2/Retro 2 Espalda.png",
+      ],
+    },
+  ],
+},
     ],
   },
   {
@@ -992,6 +1067,155 @@ export const camisetas = [
           },
         ],
       },
+      {
+  nombre: "Almería",
+  camisetas: [
+    {
+      id: 101,
+      nombre: "Almería - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Almería/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Almería/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 102,
+      nombre: "Almería - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Almería/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Almería/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+  ],
+},{
+  nombre: "Las Palmas",
+  camisetas: [
+    {
+      id: 103,
+      nombre: "Las Palmas - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 104,
+      nombre: "Las Palmas - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 105,
+      nombre: "Las Palmas - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 106,
+      nombre: "Las Palmas - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 107,
+      nombre: "Las Palmas - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 108,
+      nombre: "Las Palmas - Retro 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 1/Retro 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 1/Retro 1 Espalda.png",
+      ],
+    },
+    {
+      id: 109,
+      nombre: "Las Palmas - Retro 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 2/Retro 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 2/Retro 2 Espalda.png",
+      ],
+    },
+    {
+      id: 110,
+      nombre: "Las Palmas - Retro 3",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 3/Retro 3 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 3/Retro 3 Espalda.png",
+      ],
+    },
+    {
+      id: 111,
+      nombre: "Las Palmas - Retro 4",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 4/Retro 4 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Retro/Retro 4/Retro 4 Espalda.png",
+      ],
+    },
+    {
+      id: 112,
+      nombre: "Las Palmas - Especial 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 1/Especial 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 1/Especial 1 Espalda.png",
+      ],
+    },
+    {
+      id: 113,
+      nombre: "Las Palmas - Especial 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 2/Especial 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 2/Especial 2 Espalda.png",
+      ],
+    },
+    {
+      id: 114,
+      nombre: "Las Palmas - Especial 3",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 3/Especial 3 Frente.png",
+        "/camisetas/Liga Hipermotion/Las Palmas/Especial/Especial 3/Especial 3 Espalda.png",
+      ],
+    },
+  ],
+},
       ],
      },
   {
