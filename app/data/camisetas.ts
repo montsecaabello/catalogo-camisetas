@@ -1673,6 +1673,95 @@ export const camisetas = [
       ],
     },
   ],
+},{
+  nombre: "Valladolid",
+  camisetas: [
+    {
+      id: 152,
+      nombre: "Valladolid - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Valladolid/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Valladolid/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 153,
+      nombre: "Valladolid - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Valladolid/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Valladolid/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 154,
+      nombre: "Valladolid - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Valladolid/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Valladolid/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 155,
+      nombre: "Valladolid - Retro 95-96",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Valladolid/Retro/Retro 95-96/Retro 95-96 Frente.png",
+        "/camisetas/Liga Hipermotion/Valladolid/Retro/Retro 95-96/Retro 95-96 Espalda.png",
+      ],
+    },
+    {
+      id: 156,
+      nombre: "Valladolid - Retro 84-85",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Valladolid/Retro/Retro 84-85/Retro 84-85 Frente.png",
+        "/camisetas/Liga Hipermotion/Valladolid/Retro/Retro 84-85/Retro 84-85 Espalda.png",
+      ],
+    },
+    {
+      id: 157,
+      nombre: "Valladolid - Especial 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Valladolid/Especial/Especial 1/Especial 1 Frente.png",
+        "/camisetas/Liga Hipermotion/Valladolid/Especial/Especial 1/Especial 1 Espalda.png",
+      ],
+    },
+    {
+      id: 158,
+      nombre: "Valladolid - Especial 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Valladolid/Especial/Especial 2/Especial 2 Frente.png",
+        "/camisetas/Liga Hipermotion/Valladolid/Especial/Especial 2/Especial 2 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Eibar",
+  camisetas: [
+    {
+      id: 159,
+      nombre: "Eibar - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Eibar/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Eibar/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+  ],
 },
       ],
      },
