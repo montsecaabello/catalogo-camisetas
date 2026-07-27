@@ -646,6 +646,437 @@ export const camisetas = [
     },
   ],
 },
+{
+  nombre: "Atlético de Bilbao",
+  camisetas: [
+    {
+      id: 172,
+      nombre: "Atlético de Bilbao - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 173,
+      nombre: "Atlético de Bilbao - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 174,
+      nombre: "Atlético de Bilbao - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 175,
+      nombre: "Atlético de Bilbao - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 176,
+      nombre: "Atlético de Bilbao - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 177,
+      nombre: "Atlético de Bilbao - Retro 94-95",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 94-95/Retro 94-95 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 94-95/Retro 94-95 Espalda.png",
+      ],
+    },
+    {
+      id: 178,
+      nombre: "Atlético de Bilbao - Retro 98-99",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 98-99/Retro 98-99 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 98-99/Retro 98-99 Espalda.png",
+      ],
+    },
+    {
+      id: 179,
+      nombre: "Atlético de Bilbao - Retro 99-00",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 99-00/Retro 99-00 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 99-00/Retro 99-00 Espalda.png",
+      ],
+    },
+    {
+      id: 180,
+      nombre: "Atlético de Bilbao - Retro 01-02",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 01-02/Retro 01-02 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 01-02/Retro 01-02 Espalda.png",
+      ],
+    },
+    {
+      id: 181,
+      nombre: "Atlético de Bilbao - Retro 11-12 Roja",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 11-12/Retro 11-12 Roja/Retro 11-12 Roja Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 11-12/Retro 11-12 Roja/Retro 11-12 Roja Espalda.png",
+      ],
+    },
+    {
+      id: 182,
+      nombre: "Atlético de Bilbao - Retro 11-12 Verde",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 11-12/Retro 11-12 Verde/Retro 11-12 Verde Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 11-12/Retro 11-12 Verde/Retro 11-12 Verde Espalda.png",
+      ],
+    },
+    {
+      id: 183,
+      nombre: "Atlético de Bilbao - Retro 97-98",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 97-98/Retro 97-98 Frente.png",
+        "/camisetas/LaLiga/Atlético de Bilbao/Retro/Retro 97-98/Retro 97-98 Espalda.png",
+      ],
+    },
+    {
+  id: 184,
+  nombre: "Atlético de Bilbao - Portero 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Atlético de Bilbao/Portero/Portero 25-26/Portero 25-26 Frente.png",
+    "/camisetas/LaLiga/Atlético de Bilbao/Portero/Portero 25-26/Portero 25-26 Espalda.png",
+  ],
+},
+{
+  id: 185,
+  nombre: "Atlético de Bilbao - Portero 26-27",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Atlético de Bilbao/Portero/Portero 26-27/Portero 26-27 Frente.png",
+    "/camisetas/LaLiga/Atlético de Bilbao/Portero/Portero 26-27/Portero 26-27 Espalda.png",
+  ],
+},
+  ],
+},
+{
+  nombre: "Osasuna",
+  camisetas: [
+    {
+      id: 186,
+      nombre: "Osasuna - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Osasuna/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 187,
+      nombre: "Osasuna - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Osasuna/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 188,
+      nombre: "Osasuna - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/LaLiga/Osasuna/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 189,
+      nombre: "Osasuna - Retro 83-84",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 83-84/Retro 83-84 Frente.png",
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 83-84/Retro 83-84 Espalda.png",
+      ],
+    },
+    {
+      id: 190,
+      nombre: "Osasuna - Retro 95-96 Roja",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 95-96/Retro 95-96 Roja/Retro 95-96 Roja Frente.png",
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 95-96/Retro 95-96 Roja/Retro 95-96 Roja Espalda.png",
+      ],
+    },
+    {
+      id: 191,
+      nombre: "Osasuna - Retro 95-96 Azul",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 95-96/Retro 95-96 Azul/Retro 95-96 Azul Frente.png",
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 95-96/Retro 95-96 Azul/Retro 95-96 Azul Espalda.png",
+      ],
+    },
+    {
+      id: 192,
+      nombre: "Osasuna - Retro 00-01",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 00-01/Retro 00-01 Frente.png",
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 00-01/Retro 00-01 Espalda.png",
+      ],
+    },
+    {
+      id: 193,
+      nombre: "Osasuna - Retro 11-12",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 11-12/Retro 11-12 Frente.png",
+        "/camisetas/LaLiga/Osasuna/Retro/Retro 11-12/Retro 11-12 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Elche",
+  camisetas: [
+    {
+      id: 194,
+      nombre: "Elche - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Elche/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Elche/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 195,
+      nombre: "Elche - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Elche/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Elche/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 196,
+      nombre: "Elche - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Elche/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/LaLiga/Elche/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 197,
+      nombre: "Elche - Retro 00-01",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Elche/Retro/Retro 00-01/Retro 00-01 Frente.png",
+        "/camisetas/LaLiga/Elche/Retro/Retro 00-01/Retro 00-01 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Alavés",
+  camisetas: [
+    {
+      id: 198,
+      nombre: "Alavés - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Alavés/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Alavés/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 199,
+      nombre: "Alavés - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Alavés/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Alavés/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 200,
+      nombre: "Alavés - Retro 00-01",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Alavés/Retro/Retro 00-01/Retro 00-01 Frente.png",
+        "/camisetas/LaLiga/Alavés/Retro/Retro 00-01/Retro 00-01 Medio.png",
+        "/camisetas/LaLiga/Alavés/Retro/Retro 00-01/Retro 00-01 Espalda.png",
+      ],
+    },
+    {
+      id: 201,
+      nombre: "Alavés - Retro 02-03",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Alavés/Retro/Retro 02-03/Retro 02-03 Frente.png",
+        "/camisetas/LaLiga/Alavés/Retro/Retro 02-03/Retro 02-03 Espalda.png",
+      ],
+    },
+    {
+      id: 202,
+      nombre: "Alavés - Retro 11-12",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Alavés/Retro/Retro 11-12/Retro 11-12 Frente.png",
+        "/camisetas/LaLiga/Alavés/Retro/Retro 11-12/Retro 11-12 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Espanyol",
+  camisetas: [
+    {
+      id: 209,
+      nombre: "Espanyol - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Espanyol/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Espanyol/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 210,
+      nombre: "Espanyol - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Espanyol/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/LaLiga/Espanyol/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 211,
+      nombre: "Espanyol - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Espanyol/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/LaLiga/Espanyol/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 212,
+      nombre: "Espanyol - Retro 84-85",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Espanyol/Retro/Retro 84-85/Retro 84-85 Frente.png",
+        "/camisetas/LaLiga/Espanyol/Retro/Retro 84-85/Retro 84-85 Espalda.png",
+      ],
+    },
+    {
+      id: 213,
+      nombre: "Espanyol - Retro 99-00",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Espanyol/Retro/Retro 99-00/Retro 99-00 Frente.png",
+        "/camisetas/LaLiga/Espanyol/Retro/Retro 99-00/Retro 99-00 Espalda.png",
+      ],
+    },
+    {
+      id: 214,
+      nombre: "Espanyol - 125 Aniversario",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Espanyol/Especial/125 Aniversario/125 Aniversario Frente.png",
+        "/camisetas/LaLiga/Espanyol/Especial/125 Aniversario/125 Aniversario Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Getafe",
+  camisetas: [
+    {
+      id: 215,
+      nombre: "Getafe - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Getafe/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/LaLiga/Getafe/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 216,
+      nombre: "Getafe - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Getafe/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/LaLiga/Getafe/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 217,
+      nombre: "Getafe - Retro 98-99",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Getafe/Retro/Retro 98-99/Retro 98-99 Frente.png",
+        "/camisetas/LaLiga/Getafe/Retro/Retro 98-99/Retro 98-99 Espalda.png",
+      ],
+    },
+  ],
+},
     ],
   },
   {
@@ -1888,6 +2319,7 @@ export const camisetas = [
 },
   ],
 },
+
       ],
      },
   {
