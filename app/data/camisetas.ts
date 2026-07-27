@@ -2,103 +2,291 @@ export const camisetas = [
   {
     nombre: "LaLiga",
     equipos: [
-      
-       {
-        nombre: "Barcelona",
-        camisetas: [
-          {
-            id: 1,
-            nombre: "Barcelona - Primera 26-27",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Espalda.png",
-            ],
-          },
-          {
-            id: 2,
-            nombre: "Barcelona - Segunda 26-27",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Espalda.png",
-            ],
-          },
-          {
-            id: 32,
-            nombre: "Barcelona - Tercera 26-27",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Tercera 26-27/Tercera 26-27 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Tercera 26-27/Tercera 26-27 Espalda.png",
-            ],
-          },
-          {
-            id: 33,
-            nombre: "Barcelona - Edición especial 1",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 1/Especial 1 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 1/Especial 1 Espalda.png",
-            ],
-          },
-          {
-            id: 34,
-            nombre: "Barcelona - Edición especial 2",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 2/Especial 2 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 2/Especial 2 Espalda.png",
-            ],
-          },
-          {
-            id: 35,
-            nombre: "Barcelona - Edición especial 3",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 3/Especial 3 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 3/Especial 3 Espalda.png",
-            ],
-          },
-          {
-            id: 36,
-            nombre: "Barcelona - Edición especial 4",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 4/Especial 4 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 4/Especial 4 Espalda.png",
-            ],
-          },
-          {
-            id: 37,
-            nombre: "Barcelona - Edición especial 5",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 5/Especial 5 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 5/Especial 5 Espalda.png",
-            ],
-          },
-          {
-            id: 38,
-            nombre: "Barcelona - Edición especial 6",
-            precio: "19 €",
-            premium: "22 €",
-            imagenes: [
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 6/Especial 6 Frente.png",
-              "/camisetas/LaLiga/Barcelona/Especiales/Edición especial 6/Especial 6 Espalda.png",
-            ],
-          },
-        ],
-      },
-
+      {
+  nombre: "Barcelona",
+  camisetas: [
+    {
+      id: 268,
+      nombre: "Barcelona - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 269,
+      nombre: "Barcelona - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 270,
+      nombre: "Barcelona - Tercera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Tercera 26-27/Tercera 26-27 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Tercera 26-27/Tercera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 271,
+      nombre: "Barcelona - Edición especial All Black",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial All Black/Edición especial All Black Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial All Black/Edición especial All Black Espalda.png",
+      ],
+    },
+    {
+      id: 272,
+      nombre: "Barcelona - Edición especial Golden Age",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Golden Age/Edición especial Golden Age Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Golden Age/Edición especial Golden Age Espalda.png",
+      ],
+    },
+    {
+      id: 273,
+      nombre: "Barcelona - Edición especial Leyendas",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Leyendas/Edición especial Leyendas Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Leyendas/Edición especial Leyendas Espalda.png",
+      ],
+    },
+    {
+      id: 274,
+      nombre: "Barcelona - Edición especial Sant Jordi",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Sant Jordi/Edición especial Sant Jordi Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Sant Jordi/Edición especial Sant Jordi Espalda.png",
+      ],
+    },
+    {
+      id: 275,
+      nombre: "Barcelona - Edición especial 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial 26-27/Edición especial 26-27 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial 26-27/Edición especial 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 276,
+      nombre: "Barcelona - Edición especial Barcelona x Jordan",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Barcelona x Jordan/Edición especial Barcelona x Jordan Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Barcelona x Jordan/Edición especial Barcelona x Jordan Espalda.png",
+      ],
+    },
+    {
+      id: 277,
+      nombre: "Barcelona - Edición especial Barcelona x Olivia Rodrigo",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Barcelona x Olivia Rodrigo/Edición especial Barcelona x Olivia Rodrigo Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Barcelona x Olivia Rodrigo/Edición especial Barcelona x Olivia Rodrigo Espalda.png",
+      ],
+    },
+    {
+      id: 278,
+      nombre: "Barcelona - Edición especial Bicolor 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Bicolor 26-27/Especial Bicolor Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Bicolor 26-27/Especial Bicolor Espalda.png",
+      ],
+    },
+    {
+      id: 279,
+      nombre: "Barcelona - Edición especial conceptual",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial conceptual/Edición especial conceptual Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial conceptual/Edición especial conceptual Espalda.png",
+      ],
+    },
+    {
+      id: 280,
+      nombre: "Barcelona - Edición especial Pink Wings",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Pink Wings/Especial Pink Wings Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Pink Wings/Especial Pink Wings Espalda.png",
+      ],
+    },
+    {
+      id: 281,
+      nombre: "Barcelona - Edición especial Verde",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Verde/Edición especial Verde Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Verde/Edición especial Verde Espalda.png",
+      ],
+    },
+    {
+      id: 282,
+      nombre: "Barcelona - Edición especial versión retro",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición limitada versión retro/Edición limitada versión retro Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición limitada versión retro/Edición limitada versión retro Espalda.png",
+      ],
+    },
+    {
+      id: 283,
+      nombre: "Barcelona - Pre-partido 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Pre-partido/Pre-partido 25-26/Pre-partido 25-26 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Pre-partido/Pre-partido 25-26/Pre-partido 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 284,
+      nombre: "Barcelona - Pre-partido 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Pre-partido/Pre-partido 26-27/Pre-partido 26-27 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Pre-partido/Pre-partido 26-27/Pre-partido 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 285,
+      nombre: "Barcelona - Pre-partido 26-27 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Pre-partido/Pre-partido 26-27 2/Pre-partido 26-27 2 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Pre-partido/Pre-partido 26-27 2/Pre-partido 26-27 2 Espalda.png",
+      ],
+    },
+    {
+      id: 286,
+      nombre: "Barcelona - Retro 01-02",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Retro/Retro 01-02/Retro 01-02 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Retro/Retro 01-02/Retro 01-02 Espalda.png",
+      ],
+    },
+    {
+      id: 287,
+      nombre: "Barcelona - Retro 98-99",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Retro/Retro 98-99/Retro 98-99 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Retro/Retro 98-99/Retro 98-99 Espalda.png",
+      ],
+    },
+    {
+      id: 288,
+      nombre: "Barcelona - Retro 03-04",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Retro/Retro 03-04/Retro 03-04 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Retro/Retro 03-04/Retro 03-04 Espalda.png",
+      ],
+    },
+    {
+      id: 289,
+      nombre: "Barcelona - Cuarta 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Cuarta 25-26/Cuarta 25-26 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Cuarta 25-26/Cuarta 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 290,
+      nombre: "Barcelona - Edición especial Karol G Bichota 1",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Karol G Bichota 1/Edición especial Karol G Bichota 1 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Karol G Bichota 1/Edición especial Karol G Bichota 1 Espalda.png",
+      ],
+    },
+    {
+      id: 291,
+      nombre: "Barcelona - Edición especial Karol G Bichota 2",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Karol G Bichota 2/Edición especial Karol G Bichota 2 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Karol G Bichota 2/Edición especial Karol G Bichota 2 Espalda.png",
+      ],
+    },
+    {
+      id: 292,
+      nombre: "Barcelona - Edición especial Pink Dragon",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Pink Dragon/Edición especial Pink Dragon Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Pink Dragon/Edición especial Pink Dragon Espalda.png",
+      ],
+    },
+    {
+      id: 293,
+      nombre: "Barcelona - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/LaLiga/Barcelona/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 294,
+      nombre: "Barcelona - Edición especial Aurora Black",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Aurora Black/Edición especial Aurora Black Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Aurora Black/Edición especial Aurora Black Espalda.png",
+      ],
+    },
+    {
+      id: 295,
+      nombre: "Barcelona - Edición especial Lamine Yamal",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Lamine Yamal/Edición especial Lamine Yamal Frente.png",
+        "/camisetas/LaLiga/Barcelona/Especial/Edición especial Lamine Yamal/Edición especial Lamine Yamal Espalda.png",
+      ],
+    },
+  ],
+},
       {
         nombre: "Betis",
         camisetas: [
