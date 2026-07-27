@@ -1763,6 +1763,131 @@ export const camisetas = [
     },
   ],
 },
+{
+  nombre: "Sporting de Gijón",
+  camisetas: [
+    {
+      id: 160,
+      nombre: "Sporting de Gijón - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 161,
+      nombre: "Sporting de Gijón - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 162,
+      nombre: "Sporting de Gijón - Tercera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Tercera 25-26/Tercera 25-26 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Tercera 25-26/Tercera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 163,
+      nombre: "Sporting de Gijón - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 164,
+      nombre: "Sporting de Gijón - Retro 86-87",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 86-87/Retro 86-87 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 86-87/Retro 86-87 Espalda.png",
+      ],
+    },
+    {
+      id: 165,
+      nombre: "Sporting de Gijón - Retro 94-95",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 94-95/Retro 94-95 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 94-95/Retro 94-95 Espalda.png",
+      ],
+    },
+    {
+      id: 166,
+      nombre: "Sporting de Gijón - Retro 08-09",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 08-09/Retro 08-09 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 08-09/Retro 08-09 Espalda.png",
+      ],
+    },
+    {
+      id: 167,
+      nombre: "Sporting de Gijón - Retro 02-03",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 02-03/Retro 02-03 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 02-03/Retro 02-03 Espalda.png",
+      ],
+    },
+    {
+      id: 168,
+      nombre: "Sporting de Gijón - Retro 96-97",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 96-97/Retro 96-97 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 96-97/Retro 96-97 Espalda.png",
+      ],
+    },
+    {
+      id: 169,
+      nombre: "Sporting de Gijón - Retro 12-13",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 12-13/Retro 12-13 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 12-13/Retro 12-13 Espalda.png",
+      ],
+    },
+    {
+      id: 170,
+      nombre: "Sporting de Gijón - Retro 95-96",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 95-96/Retro 95-96 Frente.png",
+        "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 95-96/Retro 95-96 Espalda.png",
+      ],
+    },
+    {
+  id: 171,
+  nombre: "Sporting de Gijón - Retro 15-16",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 15-16/Retro 15-16 Frente.png",
+    "/camisetas/Liga Hipermotion/Sporting de Gijón/Retro/Retro 15-16/Retro 15-16 Espalda.png",
+  ],
+},
+  ],
+},
       ],
      },
   {
