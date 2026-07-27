@@ -1076,6 +1076,94 @@ export const camisetas = [
       ],
     },
   ],
+},{
+  nombre: "Levante",
+  camisetas: [
+    {
+      id: 218,
+      nombre: "Levante - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Levante/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Levante/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 219,
+      nombre: "Levante - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Levante/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Levante/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+  ],
+},{
+  nombre: "Racing de Santander",
+  camisetas: [
+    {
+      id: 220,
+      nombre: "Racing de Santander - Primera 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Racing de Santander/Primera 25-26/Primera 25-26 Frente.png",
+        "/camisetas/LaLiga/Racing de Santander/Primera 25-26/Primera 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 221,
+      nombre: "Racing de Santander - Segunda 25-26",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Racing de Santander/Segunda 25-26/Segunda 25-26 Frente.png",
+        "/camisetas/LaLiga/Racing de Santander/Segunda 25-26/Segunda 25-26 Espalda.png",
+      ],
+    },
+    {
+      id: 222,
+      nombre: "Racing de Santander - Retro 97-98",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Racing de Santander/Retro/Retro 97-98/Retro 97-98 Frente.png",
+        "/camisetas/LaLiga/Racing de Santander/Retro/Retro 97-98/Retro 97-98 Espalda.png",
+      ],
+    },
+    {
+      id: 223,
+      nombre: "Racing de Santander - Retro 98-99",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Racing de Santander/Retro/Retro 98-99/Retro 98-99 Frente.png",
+        "/camisetas/LaLiga/Racing de Santander/Retro/Retro 98-99/Retro 98-99 Espalda.png",
+      ],
+    },
+    {
+      id: 224,
+      nombre: "Racing de Santander - 113 Aniversario Blanco",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Racing de Santander/Especial/113 Aniversario Blanco/113 Aniversario Blanco Frente.png",
+        "/camisetas/LaLiga/Racing de Santander/Especial/113 Aniversario Blanco/113 Aniversario Blanco Espalda.png",
+      ],
+    },
+    {
+      id: 225,
+      nombre: "Racing de Santander - 113 Aniversario Verde",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/LaLiga/Racing de Santander/Especial/113 Aniversario Verde/113 Aniversario Verde Frente.png",
+        "/camisetas/LaLiga/Racing de Santander/Especial/113 Aniversario Verde/113 Aniversario Verde Espalda.png",
+      ],
+    },
+  ],
 },
     ],
   },
