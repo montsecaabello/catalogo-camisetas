@@ -285,6 +285,106 @@ export const camisetas = [
         "/camisetas/LaLiga/Barcelona/Especial/Edición especial Lamine Yamal/Edición especial Lamine Yamal Espalda.png",
       ],
     },
+{
+  id: 296,
+  nombre: "Barcelona - Retro 01-02 Local",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 01-02 Local/Retro 01-02 Local Frente.png",
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 01-02 Local/Retro 01-02 Local Espalda.png",
+  ],
+},
+{
+  id: 297,
+  nombre: "Barcelona - Retro 15-16 Tercera",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 15-16 Tercera/Retro 15-16 Tercera Frente.png",
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 15-16 Tercera/Retro 15-16 Tercera Azul Espalda.png",
+  ],
+},
+{
+  id: 298,
+  nombre: "Barcelona - Retro 17-18 Tercera",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 17-18 Tercera/Retro 17-18 Tercera Frente.png",
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 17-18 Tercera/Retro 17-18 Tercera Espalda.png",
+  ],
+},
+{
+  id: 299,
+  nombre: "Barcelona - Retro 16-17 Tercera",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 16-17 Tercera/Retro 16-17 Tercera Frente.png",
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 16-17 Tercera/Retro 16-17 Tercera Espalda.png",
+  ],
+},
+{
+  id: 300,
+  nombre: "Barcelona - Retro 04-05 Local",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 04-05 Local/Retro 04-05 Local Frente.png",
+    "/camisetas/LaLiga/Barcelona/Retro/Retro 04-05 Local/Retro 04-05 Local Espalda.png",
+  ],
+},
+{
+  id: 301,
+  nombre: "Barcelona - Edición multicolor Verde",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Especial/Edición multicolor Verde/Edición multicolor Verde Frente.png",
+    "/camisetas/LaLiga/Barcelona/Especial/Edición multicolor Verde/Edición multicolor Verde Espalda.png",
+  ],
+},
+{
+  id: 302,
+  nombre: "Barcelona - Edición multicolor Azul",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Especial/Edición multicolor Azul/Edición multicolor Azul Frente.png",
+    "/camisetas/LaLiga/Barcelona/Especial/Edición multicolor Azul/Edición multicolor Azul Espalda.png",
+  ],
+},
+{
+  id: 303,
+  nombre: "Barcelona - Edición multicolor Rosa",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Especial/Edición multicolor Rosa/Edición multicolor Rosa Frente.png",
+    "/camisetas/LaLiga/Barcelona/Especial/Edición multicolor Rosa/Edición multicolor Rosa Espalda.png",
+  ],
+},
+{
+  id: 304,
+  nombre: "Barcelona - Edición especial Blood Moon",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Especial/Edición especial Blood Moon/Edición especial Blood Moon Frente.png",
+    "/camisetas/LaLiga/Barcelona/Especial/Edición especial Blood Moon/Edición especial Blood Moon Espalda.png",
+  ],
+},
+{
+  id: 305,
+  nombre: "Barcelona - Edición especial Travis Scott x Nike x Barcelona",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Barcelona/Especial/Edición especial Travis Scott x Nike x Barcelona/Edición especial Travis Scott x Nike x Barcelona Frente.png",
+    "/camisetas/LaLiga/Barcelona/Especial/Edición especial Travis Scott x Nike x Barcelona/Edición especial Travis Scott x Nike x Barcelona Espalda.png",
+  ],
+},
   ],
 },
       {

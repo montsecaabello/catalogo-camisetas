@@ -301,7 +301,7 @@ const camisetasFiltradas =
               color: "#8a6b3f",
             }}
           >
-            Desde {camiseta.precio}
+            Desde {camiseta.nombre.includes("Retro") ? "21 €" : camiseta.precio}
           </p>
 
           <p>⭐ Calidad Premium</p>
