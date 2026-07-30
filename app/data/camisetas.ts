@@ -395,6 +395,7 @@ export const camisetas = [
             nombre: "Betis - Primera 25-26",
             precio: "19 €",
             premium: "22 €",
+            tallas: ["S", "M", "L", "XL", "XXL"],
             imagenes: [
               "/camisetas/LaLiga/Betis/Primera 25-26/Primera 25-26 Frente.png",
               "/camisetas/LaLiga/Betis/Primera 25-26/Primera 25-26 Espalda.png",
