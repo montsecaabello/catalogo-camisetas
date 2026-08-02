@@ -1035,6 +1035,26 @@ export const camisetas = [
     "/camisetas/LaLiga/Atlético de Bilbao/Portero/Portero 26-27/Portero 26-27 Espalda.png",
   ],
 },
+{
+  id: 317,
+  nombre: "Atlético de Madrid - Pre-Partido 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Atlético de Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Frente.png",
+    "/camisetas/LaLiga/Atlético de Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Espalda.png",
+  ],
+},
+{
+  id: 318,
+  nombre: "Atlético de Madrid - Portero 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Atlético de Madrid/Portero/Portero 25-26/Portero 25-26 Frente.png",
+    "/camisetas/LaLiga/Atlético de Madrid/Portero/Portero 25-26/Portero 25-26 Espalda.png",
+  ],
+},
   ],
 },
 {
