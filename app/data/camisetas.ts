@@ -451,6 +451,116 @@ export const camisetas = [
               "/camisetas/LaLiga/Betis/Segunda 26-27/Segunda 26-27 Espalda.png",
             ],
           },
+          {
+  id: 319,
+  nombre: "Betis - Retro 03-04",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Retro/Retro 03-04/Retro 03-04 Frente.png",
+    "/camisetas/LaLiga/Betis/Retro/Retro 03-04/Retro 03-04 Espalda.png",
+  ],
+},
+{
+  id: 320,
+  nombre: "Betis - Retro 95-97",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Retro/Retro 95-97/Retro 95-97 Frente.png",
+    "/camisetas/LaLiga/Betis/Retro/Retro 95-97/Retro 95-97 Espalda.png",
+  ],
+},
+{
+  id: 321,
+  nombre: "Betis - Retro 82-85",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Retro/Retro 82-85/Retro 82-85 Frente.png",
+    "/camisetas/LaLiga/Betis/Retro/Retro 82-85/Retro 82-85 Espalda.png",
+  ],
+},
+{
+  id: 322,
+  nombre: "Betis - Retro 01-02",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Retro/Retro 01-02/Retro 01-02 Frente.png",
+    "/camisetas/LaLiga/Betis/Retro/Retro 01-02/Retro 01-02 Espalda.png",
+  ],
+},
+{
+  id: 323,
+  nombre: "Betis - Retro 95-96",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Retro/Retro 95-96/Retro 95-96 Frente.png",
+    "/camisetas/LaLiga/Betis/Retro/Retro 95-96/Retro 95-96 Espalda.png",
+  ],
+},
+{
+  id: 324,
+  nombre: "Betis - Retro 88-89",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Retro/Retro 88-89/Retro 88-89 Frente.png",
+    "/camisetas/LaLiga/Betis/Retro/Retro 88-89/Retro 88-89 Espalda.png",
+  ],
+},
+{
+  id: 325,
+  nombre: "Betis - Especial",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Especial/Edición Especial Retro/Edición Especial Retro Frente.png",
+    "/camisetas/LaLiga/Betis/Especial/Edición Especial Retro/Edición Especial Retro Espalda.png",
+  ],
+},
+{
+  id: 326,
+  nombre: "Betis - Edición Especial Pueblos",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Especial/Edición Especial Pueblos/Edición Especial Pueblos 25-26 Frente.png",
+    "/camisetas/LaLiga/Betis/Especial/Edición Especial Pueblos/Edición Especial Pueblos 25-26 Espalda.png",
+  ],
+},
+{
+  id: 327,
+  nombre: "Betis - Portero 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Portero/Portero 25-26/Portero 25-26 Frente.png",
+    "/camisetas/LaLiga/Betis/Portero/Portero 25-26/Portero 25-26 Espalda.png",
+  ],
+},
+{
+  id: 328,
+  nombre: "Betis - Portero 25-26 Primera",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Portero/Portero 25-26 Primera/Portero 25-26 Primera Frente.png",
+    "/camisetas/LaLiga/Betis/Portero/Portero 25-26 Primera/Portero 25-26 Primera Espalda.png",
+  ],
+},
+{
+  id: 329,
+  nombre: "Betis - Portero 25-26 Segunda",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Portero/Portero 25-26 Segunda/Portero 25-26 Segunda Frente.png",
+    "/camisetas/LaLiga/Betis/Portero/Portero 25-26 Segunda/Portero 25-26 Segunda Espalda.png",
+  ],
+},
         ],
       },{
   nombre: "Real Madrid",
@@ -630,6 +740,116 @@ export const camisetas = [
               "/camisetas/LaLiga/Sevilla/Segunda 26-27/Segunda 26-27 Espalda.png",
             ],
           },
+          {
+  id: 306,
+  nombre: "Sevilla - Tercera 26-27",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Tercera 26-27/Tercera 26-27 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Tercera 26-27/Tercera 26-27 Espalda.png",
+  ],
+},
+{
+  id: 307,
+  nombre: "Sevilla - Retro 91-92",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 91-92/Retro 91-92 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 91-92/Retro 91-92 Espalda.png",
+  ],
+},
+{
+  id: 308,
+  nombre: "Sevilla - Retro 94-96 Local",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Local/Retro 94-96 Local Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Local/Retro 94-96 Local Espalda.png",
+  ],
+},
+{
+  id: 309,
+  nombre: "Sevilla - Retro 94-96 Visitante",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Visitante/Retro 94-96 Visitante Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Visitante/Retro 94-96 Visitante Espalda.png",
+  ],
+},
+{
+  id: 310,
+  nombre: "Sevilla - Especial 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Especial/Especial 25-26/Especial Retro 25-26 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Especial/Especial 25-26/Especial Retro 25-26 Espalda.png",
+  ],
+},
+{
+  id: 311,
+  nombre: "Sevilla - Especial Sevilla x Rocio Osorno",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Especial/Especial Sevilla x Rocio Osorno/Especial Sevilla x Rocio Osorno Frente.png",
+    "/camisetas/LaLiga/Sevilla/Especial/Especial Sevilla x Rocio Osorno/Especial Sevilla x Rocio Osorno Espalda.png",
+  ],
+},
+{
+  id: 312,
+  nombre: "Sevilla - Retro 92-93",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 92-93/Retro 92-93 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 92-93/Retro 92-93 Espalda.png",
+  ],
+},
+{
+  id: 313,
+  nombre: "Sevilla - Retro 87-90",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 87-90/Retro 87-90 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 87-90/Retro 87-90 Espalda.png",
+  ],
+},
+{
+  id: 314,
+  nombre: "Sevilla - Retro 15-16",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 15-16/Retro 15-16 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 15-16/Retro 15-16 Espalda.png",
+  ],
+},
+{
+  id: 315,
+  nombre: "Sevilla - Retro 03-04",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 03-04/Retro 03-04 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 03-04/Retro 03-04 Espalda.png",
+  ],
+},
+{
+  id: 316,
+  nombre: "Sevilla - Retro 93-94",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 93-94/Retro 93-94 Frente.png",
+    "/camisetas/LaLiga/Sevilla/Retro/Retro 93-94/Retro 93-94 Espalda.png",
+  ],
+},
         ],
       },
 
@@ -801,6 +1021,26 @@ export const camisetas = [
               "/camisetas/LaLiga/Atlético de Madrid/Segunda 26-27/Segunda 26-27 Espalda.png",
             ],
           },
+          {
+  id: 317,
+  nombre: "Atlético de Madrid - Pre-Partido 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Atlético de Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Frente.png",
+    "/camisetas/LaLiga/Atlético de Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Espalda.png",
+  ],
+},
+{
+  id: 318,
+  nombre: "Atlético de Madrid - Portero 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Atlético de Madrid/Portero/Portero 25-26/Portero 25-26 Frente.png",
+    "/camisetas/LaLiga/Atlético de Madrid/Portero/Portero 25-26/Portero 25-26 Espalda.png",
+  ],
+},
         ],
       }, {
         nombre: "Valencia",
@@ -1033,26 +1273,6 @@ export const camisetas = [
   imagenes: [
     "/camisetas/LaLiga/Atlético de Bilbao/Portero/Portero 26-27/Portero 26-27 Frente.png",
     "/camisetas/LaLiga/Atlético de Bilbao/Portero/Portero 26-27/Portero 26-27 Espalda.png",
-  ],
-},
-{
-  id: 317,
-  nombre: "Atlético de Madrid - Pre-Partido 25-26",
-  precio: "19 €",
-  premium: "22 €",
-  imagenes: [
-    "/camisetas/LaLiga/Atlético de Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Frente.png",
-    "/camisetas/LaLiga/Atlético de Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Espalda.png",
-  ],
-},
-{
-  id: 318,
-  nombre: "Atlético de Madrid - Portero 25-26",
-  precio: "19 €",
-  premium: "22 €",
-  imagenes: [
-    "/camisetas/LaLiga/Atlético de Madrid/Portero/Portero 25-26/Portero 25-26 Frente.png",
-    "/camisetas/LaLiga/Atlético de Madrid/Portero/Portero 25-26/Portero 25-26 Espalda.png",
   ],
 },
   ],
@@ -1641,116 +1861,6 @@ export const camisetas = [
         "/camisetas/LaLiga/Villarreal/Primera 26-27/Primera 26-27 Espalda.png",
       ],
     },
-    {
-  id: 306,
-  nombre: "Sevilla - Tercera 26-27",
-  precio: "19 €",
-  premium: "22 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Tercera 26-27/Tercera 26-27 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Tercera 26-27/Tercera 26-27 Espalda.png",
-  ],
-},
-{
-  id: 307,
-  nombre: "Sevilla - Retro 91-99",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 91-99/Retro 91-99 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 91-99/Retro 91-99 Espalda.png",
-  ],
-},
-{
-  id: 308,
-  nombre: "Sevilla - Retro 94-96 Local",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Local/Retro 94-96 Local Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Local/Retro 94-96 Local Espalda.png",
-  ],
-},
-{
-  id: 309,
-  nombre: "Sevilla - Retro 94-96 Visitante",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Visitante/Retro 94-96 Visitante Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 94-96 Visitante/Retro 94-96 Visitante Espalda.png",
-  ],
-},
-{
-  id: 310,
-  nombre: "Sevilla - Especial 25-26",
-  precio: "19 €",
-  premium: "22 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Especial/Especial 25-26/Especial Retro 25-26 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Especial/Especial 25-26/Especial Retro 25-26 Espalda.png",
-  ],
-},
-{
-  id: 311,
-  nombre: "Sevilla - Especial Sevilla x Rocio Osorno",
-  precio: "19 €",
-  premium: "22 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Especial/Especial Sevilla x Rocio Osorno/Especial Sevilla x Rocio Osorno Frente.png",
-    "/camisetas/LaLiga/Sevilla/Especial/Especial Sevilla x Rocio Osorno/Especial Sevilla x Rocio Osorno Espalda.png",
-  ],
-},
-{
-  id: 312,
-  nombre: "Sevilla - Retro 92-93",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 92-93/Retro 92-93 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 92-93/Retro 92-93 Espalda.png",
-  ],
-},
-{
-  id: 313,
-  nombre: "Sevilla - Retro 87-90",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 87-90/Retro 87-90 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 87-90/Retro 87-90 Espalda.png",
-  ],
-},
-{
-  id: 314,
-  nombre: "Sevilla - Retro 15-16",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 15-16/Retro 15-16 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 15-16/Retro 15-16 Espalda.png",
-  ],
-},
-{
-  id: 315,
-  nombre: "Sevilla - Retro 03-04",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 03-04/Retro 03-04 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 03-04/Retro 03-04 Espalda.png",
-  ],
-},
-{
-  id: 316,
-  nombre: "Sevilla - Retro 93-94",
-  precio: "21 €",
-  premium: "24 €",
-  imagenes: [
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 93-94/Retro 93-94 Frente.png",
-    "/camisetas/LaLiga/Sevilla/Retro/Retro 93-94/Retro 93-94 Espalda.png",
-  ],
-},
   ],
 },
     ],
