@@ -715,6 +715,186 @@ export const camisetas = [
         "/camisetas/LaLiga/Real Madrid/Especial/Rosa 26-27/Rosa 26-27 Espalda.png",
       ],
     },
+    {
+  id: 334,
+  nombre: "Real Madrid - Retro 03-04",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 03-04/Retro 03-04 Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 03-04/Retro 03-04 Espalda.png",
+  ],
+},
+{
+  id: 335,
+  nombre: "Real Madrid - Retro 06-07 Tercera",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 06-07 Tercera/Retro 06-07 Tercera Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 06-07 Tercera/Retro 06-07 Tercera Espalda.png",
+  ],
+},
+{
+  id: 336,
+  nombre: "Real Madrid - Retro 10-11",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 10-11/Retro 10-11 Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 10-11/Retro 10-11 Espalda.png",
+  ],
+},
+{
+  id: 337,
+  nombre: "Real Madrid - Retro 84-85 Morada",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 84-85 Morada/Retro 84-85 Morada Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 84-85 Morada/Retro 84-85 Morada Espalda.png",
+  ],
+},
+{
+  id: 338,
+  nombre: "Real Madrid - Retro 86-88",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 86-88/Retro 86-88 Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 86-88/Retro 86-88 Espalda.png",
+  ],
+},
+{
+  id: 339,
+  nombre: "Real Madrid - Retro 89-90",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 89-90/Retro 89-90 Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 89-90/Retro 89-90 Espalda.png",
+  ],
+},
+{
+  id: 340,
+  nombre: "Real Madrid - Retro 90-91",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 90-91/Retro 90-91 Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 90-91/Retro 90-91 Espalda.png",
+  ],
+},
+{
+  id: 341,
+  nombre: "Real Madrid - Retro 99-00 Tercera",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 99-00 Tercera/Retro 99-00 Tercera Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Retro/Retro 99-00 Tercera/Retro 99-00 Tercera Espalda.png",
+  ],
+},
+{
+  id: 342,
+  nombre: "Real Madrid - Pre-Partido 25-26",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Pre-Partido/Pre-Partido 25-26/Pre-Partido 25-26 Espalda.png",
+  ],
+},
+{
+  id: 343,
+  nombre: "Real Madrid - Especial Gucci x Real Madrid",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Gucci x Real Madrid/Especial Gucci x Real Madrid Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Gucci x Real Madrid/Especial Gucci x Real Madrid Espalda.png",
+  ],
+},
+{
+  id: 344,
+  nombre: "Real Madrid - Especial Historia",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Historia/Especial Historia Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Historia/Especial Historia Espalda.png",
+  ],
+},
+{
+  id: 345,
+  nombre: "Real Madrid - Especial Marvel",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Marvel/Especial Marvel Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Marvel/Especial Marvel Espalda.png",
+  ],
+},
+{
+  id: 346,
+  nombre: "Real Madrid - Especial Pink Dragon",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Pink Dragon/Especial Pink Dragon Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Pink Dragon/Especial Pink Dragon Espalda.png",
+  ],
+},
+{
+  id: 347,
+  nombre: "Real Madrid - Especial Purple Dragon",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Purple Dragon/Especial Purple Dragon Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Purple Dragon/Especial Purple Dragon Espalda.png",
+  ],
+},
+{
+  id: 348,
+  nombre: "Real Madrid - Especial White Dragon",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial White Dragon/Especial White Dragon Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial White Dragon/Especial White Dragon Espalda.png",
+  ],
+},
+{
+  id: 349,
+  nombre: "Real Madrid - Especial Rosa Roja",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Rosa Roja/Especial Rosa Roja Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Rosa Roja/Especial Rosa Roja Espalda.png",
+  ],
+},
+{
+  id: 350,
+  nombre: "Real Madrid - Especial Rosa Rosa",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Rosa Rosa/Especial Rosa Rosa Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Rosa Rosa/Especial Rosa Rosa Espalda.png",
+  ],
+},
+{
+  id: 351,
+  nombre: "Real Madrid - Especial Rosa Morada",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Rosa Morada/Especial Rosa Morada Frente.png",
+    "/camisetas/LaLiga/Real Madrid/Especial/Especial Rosa Morada/Especial Rosa Morada Espalda.png",
+  ],
+},
   ],
 },
       {
