@@ -100,7 +100,7 @@ const camisetasFiltradas =
 
         <input
           type="text"
-          placeholder="🔍 Buscar equipo..."
+          placeholder="🔍 Buscar temporada ejemplo= 26-27"
           value={busqueda}
           onChange={(e) => setBusqueda(e.target.value)}
           style={{
