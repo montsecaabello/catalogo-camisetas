@@ -40,6 +40,7 @@ const listaParches = [
 ];
 const [parchesAbiertos, setParchesAbiertos] = useState<{[key: number]: boolean;}>({});
 const [camisetaAbierta, setCamisetaAbierta] = useState<number | null>(null);
+const [orden, setOrden] = useState("nuevas");
 
 
   const categoriaActual =
@@ -53,13 +54,61 @@ const equipos =
 const camisetasFiltradas =
   equipo === "Todos"
     ? []
-    : equipos
+    : (equipos
         .find((e: any) => e.nombre === equipo)
         ?.camisetas.filter((camiseta: any) =>
           camiseta.nombre
             .toLowerCase()
             .includes(busqueda.toLowerCase())
-        ) || [];
+        ) || []
+      ).sort((a: any, b: any) => {
+        if (orden === "nuevas") {
+          const temporadaA = a.nombre.match(/(26-27|25-26)/)?.[1] || "";
+          const temporadaB = b.nombre.match(/(26-27|25-26)/)?.[1] || "";
+
+          const valorA =
+            temporadaA === "26-27"
+              ? 2
+              : temporadaA === "25-26"
+              ? 1
+              : 0;
+
+          const valorB =
+            temporadaB === "26-27"
+              ? 2
+              : temporadaB === "25-26"
+              ? 1
+              : 0;
+
+          return valorB - valorA;
+        }
+
+        if (orden === "antiguas") {
+          const retroA = a.nombre.match(/(\d{2})-(\d{2})/)?.[1];
+          const retroB = b.nombre.match(/(\d{2})-(\d{2})/)?.[1];
+
+          if (!retroA) return 1;
+          if (!retroB) return -1;
+
+          return Number(retroA) - Number(retroB);
+        }
+
+        if (orden === "precioMenor") {
+          const precioA = parseInt(a.precio);
+          const precioB = parseInt(b.precio);
+
+          return precioA - precioB;
+        }
+
+        if (orden === "precioMayor") {
+          const precioA = parseInt(a.precio);
+          const precioB = parseInt(b.precio);
+
+          return precioB - precioA;
+        }
+
+        return 0;
+      });
 
   return (
     <section
@@ -252,6 +301,44 @@ const camisetasFiltradas =
     >
       ← Volver a equipos
     </button>
+    <div
+  style={{
+    display: "flex",
+    justifyContent: "flex-end",
+    alignItems: "center",
+    gap: "10px",
+    marginBottom: "25px",
+    flexWrap: "wrap",
+  }}
+>
+  <label
+    style={{
+      fontWeight: "bold",
+      color: "#2d241b",
+    }}
+  >
+    Ordenar por:
+  </label>
+
+  <select
+    value={orden}
+    onChange={(e) => setOrden(e.target.value)}
+    style={{
+      padding: "10px 14px",
+      borderRadius: "10px",
+      border: "1px solid #d8c7af",
+      background: "#fff",
+      color: "#2d241b",
+      fontSize: "15px",
+      cursor: "pointer",
+    }}
+  >
+    <option value="nuevas">🆕 Más nuevas</option>
+    <option value="antiguas">👕 Más antiguas</option>
+    <option value="precioMenor">💰 Precio: menor a mayor</option>
+    <option value="precioMayor">💰 Precio: mayor a menor</option>
+  </select>
+</div>
 
     <div
       style={{

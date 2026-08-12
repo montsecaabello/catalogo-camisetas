@@ -561,6 +561,16 @@ export const camisetas = [
     "/camisetas/LaLiga/Betis/Portero/Portero 25-26 Segunda/Portero 25-26 Segunda Espalda.png",
   ],
 },
+{
+  id: 362,
+  nombre: "Betis - Tercera 26-27",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Betis/Tercera 26-27/Tercera 26-27 Frente.png",
+    "/camisetas/LaLiga/Betis/Tercera 26-27/Tercera 26-27 Espalda.png",
+  ],
+},
         ],
       },{
   nombre: "Real Madrid",
@@ -1164,6 +1174,16 @@ export const camisetas = [
   imagenes: [
     "/camisetas/LaLiga/Malaga/Especial/Especial Malaga x IlloJuan/Especial Malaga x IlloJuan Frente.png",
     "/camisetas/LaLiga/Malaga/Especial/Especial Malaga x IlloJuan/Especial Malaga x IlloJuan Espalda.png",
+  ],
+},
+{
+  id: 365,
+  nombre: "Malaga - Tercera 26-27",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/LaLiga/Malaga/Tercera 26-27/Tercera 26-27 Frente.png",
+    "/camisetas/LaLiga/Malaga/Tercera 26-27/Tercera 26-27 Espalda.png",
   ],
 },
   ],
@@ -2301,6 +2321,16 @@ export const camisetas = [
               "/camisetas/Liga Hipermotion/Cordoba/Retro/Retro 97-99/Retro 97-99 Espalda.png",
             ],
           },
+          {
+  id: 363,
+  nombre: "Cordoba - Segunda 26-27",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/Liga Hipermotion/Cordoba/Segunda 26-27/Segunda 26-27 Frente.png",
+    "/camisetas/Liga Hipermotion/Cordoba/Segunda 26-27/Segunda 26-27 Espalda.png",
+  ],
+},
         ],
       },
       
@@ -2357,6 +2387,16 @@ export const camisetas = [
               "/camisetas/Liga Hipermotion/Cádiz/Segunda 26-27/Segunda 26-27 Espalda.png",
             ],
           },
+          {
+  id: 364,
+  nombre: "Cádiz - Pre-Partido 26-27",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/Liga Hipermotion/Cádiz/Pre-Partido/Pre-Partido 26-27/Pre-Partido 26-27 Frente.png",
+    "/camisetas/Liga Hipermotion/Cádiz/Pre-Partido/Pre-Partido 26-27/Pre-Partido 26-27 Espalda.png",
+  ],
+},
         ],
       },
       {
@@ -2617,6 +2657,16 @@ export const camisetas = [
               "/camisetas/Liga Hipermotion/Granada/Retro/Retro 05-06/Retro 05-06 Espalda.png",
             ],
           },
+          {
+  id: 366,
+  nombre: "Granada - Primera 26-27",
+  precio: "19 €",
+  premium: "22 €",
+  imagenes: [
+    "/camisetas/Liga Hipermotion/Granada/Primera 26-27/Primera 26-27 Frente.png",
+    "/camisetas/Liga Hipermotion/Granada/Primera 26-27/Primera 26-27 Espalda.png",
+  ],
+},
         ],
       },
       {
@@ -3374,6 +3424,216 @@ export const camisetas = [
           },
         ],
       },
+      {
+  nombre: "Argentina",
+  camisetas: [
+    {
+      id: 367,
+      nombre: "Argentina - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Argentina/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Argentina/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 368,
+      nombre: "Argentina - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Argentina/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Argentina/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 369,
+      nombre: "Argentina - Pre-Partido Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Argentina/Pre-Partido/Pre-Partido Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Argentina/Pre-Partido/Pre-Partido Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Brasil",
+  camisetas: [
+    {
+      id: 370,
+      nombre: "Brasil - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Brasil/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Brasil/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 371,
+      nombre: "Brasil - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Brasil/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Brasil/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Alemania",
+  camisetas: [
+    {
+      id: 372,
+      nombre: "Alemania - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Alemania/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Alemania/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 373,
+      nombre: "Alemania - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Alemania/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Alemania/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Francia",
+  camisetas: [
+    {
+      id: 374,
+      nombre: "Francia - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Francia/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Francia/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 375,
+      nombre: "Francia - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Francia/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Francia/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Inglaterra",
+  camisetas: [
+    {
+      id: 376,
+      nombre: "Inglaterra - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Inglaterra/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Inglaterra/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 377,
+      nombre: "Inglaterra - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Inglaterra/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Inglaterra/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Portugal",
+  camisetas: [
+    {
+      id: 378,
+      nombre: "Portugal - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Portugal/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Portugal/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 379,
+      nombre: "Portugal - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Portugal/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Portugal/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Noruega",
+  camisetas: [
+    {
+      id: 380,
+      nombre: "Noruega - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Noruega/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Noruega/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 381,
+      nombre: "Noruega - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Noruega/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Noruega/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Marruecos",
+  camisetas: [
+    {
+      id: 382,
+      nombre: "Marruecos - Local Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Marruecos/Local/Local Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Marruecos/Local/Local Mundial 2026 Espalda.png",
+      ],
+    },
+    {
+      id: 383,
+      nombre: "Marruecos - Visitante Mundial 2026",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/Marruecos/Visitante/Visitante Mundial 2026 Frente.png",
+        "/camisetas/Mundial 2026/Marruecos/Visitante/Visitante Mundial 2026 Espalda.png",
+      ],
+    },
+  ],
+},
     ],
   },
 ]
