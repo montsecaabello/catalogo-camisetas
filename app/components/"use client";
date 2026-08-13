@@ -1,0 +1,55 @@
+"use client";
+
+import { useParams } from "next/navigation";
+import { camisetas } from "../../data/camisetas";
+
+export default function CamisetaIndividual() {
+  const params = useParams();
+  const id = Number(params.id);
+
+  let camisetaEncontrada: any = null;
+
+  for (const categoria of camisetas as any[]) {
+    for (const equipo of categoria.equipos || []) {
+      const encontrada = equipo.camisetas?.find(
+        (camiseta: any) => camiseta.id === id
+      );
+
+      if (encontrada) {
+        camisetaEncontrada = encontrada;
+        break;
+      }
+    }
+
+    if (camisetaEncontrada) break;
+  }
+
+  if (!camisetaEncontrada) {
+    return <div>Camiseta no encontrada</div>;
+  }
+
+  return (
+    <main
+      style={{
+        minHeight: "100vh",
+        padding: "40px 20px",
+        background: "#f8f4ec",
+        color: "#2d241b",
+      }}
+    >
+      <h1>{camisetaEncontrada.nombre}</h1>
+
+      <img
+        src={camisetaEncontrada.imagenes[0]}
+        alt={camisetaEncontrada.nombre}
+        style={{
+          width: "100%",
+          maxWidth: "500px",
+          borderRadius: "16px",
+        }}
+      />
+
+      <p>{camisetaEncontrada.precio}</p>
+    </main>
+  );
+}

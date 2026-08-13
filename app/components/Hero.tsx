@@ -710,7 +710,7 @@ const camisetasFiltradas =
             }
 
             if (seleccionados.length >= 2) {
-              alert("Solo puedes elegir hasta 2 parches.");
+              alert("Solo puedes elegir hasta 1 parche.");
               return;
             }
 
