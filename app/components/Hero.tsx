@@ -394,6 +394,73 @@ const camisetasFiltradas =
           >
             {camiseta.nombre}
           </h2>
+          <button
+  onClick={async () => {
+    const url = `${window.location.origin}/camiseta/${camiseta.id}`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: camiseta.nombre,
+          text: `Mira esta camiseta en Gol Shirt: ${camiseta.nombre}`,
+          url,
+        });
+      } catch {
+        // El usuario ha cancelado el menú de compartir
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(url);
+        alert("Enlace de la camiseta copiado.");
+      } catch {
+        alert("No se ha podido copiar el enlace.");
+      }
+    }
+  }}
+  style={{
+    marginTop: "8px",
+    padding: "8px 12px",
+    borderRadius: "999px",
+    border: "1px solid #d8c7af",
+    background: "#fff",
+    color: "#2d241b",
+    cursor: "pointer",
+    fontSize: "13px",
+    display: "inline-flex",
+    alignItems: "center",
+    gap: "7px",
+  }}
+>
+  <svg
+    width="15"
+    height="15"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 16V4"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <path
+      d="M7 9L12 4L17 9"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M5 13V19C5 20.1 5.9 21 7 21H17C18.1 21 19 20.1 19 19V13"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+  </svg>
+
+  Compartir
+</button>
           <p
   style={{
     fontSize: "22px",
