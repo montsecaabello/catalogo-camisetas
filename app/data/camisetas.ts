@@ -3636,4 +3636,234 @@ export const camisetas = [
 },
     ],
   },
+  {
+  nombre: "Premier League",
+  equipos: [
+    {
+      nombre: "Manchester United",
+      camisetas: [
+        {
+          id: 366,
+          nombre: "Manchester United - Primera 26-27",
+          precio: "19 €",
+          premium: "22 €",
+          imagenes: [
+            "/camisetas/Premier League/Manchester United/Primera 26-27/Primera 26-27 Frente.png",
+            "/camisetas/Premier League/Manchester United/Primera 26-27/Primera 26-27 Espalda.png",
+          ],
+        },
+        {
+          id: 367,
+          nombre: "Manchester United - Segunda 26-27",
+          precio: "19 €",
+          premium: "22 €",
+          imagenes: [
+            "/camisetas/Premier League/Manchester United/Segunda 26-27/Segunda 26-27 Frente.png",
+            "/camisetas/Premier League/Manchester United/Segunda 26-27/Segunda 26-27 Espalda.png",
+          ],
+        },
+        {
+          id: 368,
+          nombre: "Manchester United - Portero 26-27",
+          precio: "19 €",
+          premium: "22 €",
+          imagenes: [
+            "/camisetas/Premier League/Manchester United/Portero/Portero 26-27/Portero 26-27 Frente.png",
+            "/camisetas/Premier League/Manchester United/Portero/Portero 26-27/Portero 26-27 Espalda.png",
+          ],
+        },
+        {
+          id: 369,
+          nombre: "Manchester United - Especial 125 Aniversario Roja",
+          precio: "19 €",
+          premium: "22 €",
+          imagenes: [
+            "/camisetas/Premier League/Manchester United/Especial/Especial 125 Aniversario Roja/Especial 125 Aniversario Roja Frente.png",
+            "/camisetas/Premier League/Manchester United/Especial/Especial 125 Aniversario Roja/Especial 125 Aniversario Roja Espalda.png",
+          ],
+        },
+        {
+          id: 370,
+          nombre: "Manchester United - Especial 125 Aniversario Verde",
+          precio: "19 €",
+          premium: "22 €",
+          imagenes: [
+            "/camisetas/Premier League/Manchester United/Especial/Especial 125 Aniversario Verde/Especial 125 Aniversario Verde Frente.png",
+            "/camisetas/Premier League/Manchester United/Especial/Especial 125 Aniversario Verde/Especial 125 Aniversario Verde Espalda.png",
+          ],
+        },
+      ],
+    },
+    {
+  nombre: "Manchester City",
+  camisetas: [
+    {
+      id: 371,
+      nombre: "Manchester City - Portero 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Manchester City/Portero/Portero 26-27/Portero 26-27 Frente.png",
+        "/camisetas/Premier League/Manchester City/Portero/Portero 26-27/Portero 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 372,
+      nombre: "Manchester City - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Manchester City/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Premier League/Manchester City/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 373,
+      nombre: "Manchester City - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Manchester City/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Premier League/Manchester City/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 374,
+      nombre: "Manchester City - Retro 02-03",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Manchester City/Retro/Retro 02-03/Retro 02-03 Frente.png",
+        "/camisetas/Premier League/Manchester City/Retro/Retro 02-03/Retro 02-03 Espalda.png",
+      ],
+    },
+    {
+      id: 375,
+      nombre: "Manchester City - Retro 07-08",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Manchester City/Retro/Retro 07-08/Retro 07-08 Frente.png",
+        "/camisetas/Premier League/Manchester City/Retro/Retro 07-08/Retro 07-08 Espalda.png",
+      ],
+    },
+    {
+      id: 376,
+      nombre: "Manchester City - Retro 08-09",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Manchester City/Retro/Retro 08-09/Retro 08-09 Frente.png",
+        "/camisetas/Premier League/Manchester City/Retro/Retro 08-09/Retro 08-09 Espalda.png",
+      ],
+    },
+    {
+      id: 377,
+      nombre: "Manchester City - Retro 97-98",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Manchester City/Retro/Retro 97-98/Retro 97-98 Frente.png",
+        "/camisetas/Premier League/Manchester City/Retro/Retro 97-98/Retro 97-98 Espalda.png",
+      ],
+    },
+  ],
+},
+{
+  nombre: "Liverpool",
+  camisetas: [
+    {
+      id: 387,
+      nombre: "Liverpool - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Premier League/Liverpool/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 388,
+      nombre: "Liverpool - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Premier League/Liverpool/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 389,
+      nombre: "Liverpool - Retro 02-04",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Retro/Retro 02-04/Retro 02-04 Frente.png",
+        "/camisetas/Premier League/Liverpool/Retro/Retro 02-04/Retro 02-04 Espalda.png",
+      ],
+    },
+    {
+      id: 390,
+      nombre: "Liverpool - Retro 01-02",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Retro/Retro 01-02/Retro 01-02 Frente.png",
+        "/camisetas/Premier League/Liverpool/Retro/Retro 01-02/Retro 01-02 Espalda.png",
+      ],
+    },
+    {
+      id: 391,
+      nombre: "Liverpool - Retro 05-06",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Retro/Retro 05-06/Retro 05-06 Frente.png",
+        "/camisetas/Premier League/Liverpool/Retro/Retro 05-06/Retro 05-06 Espalda.png",
+      ],
+    },
+    {
+      id: 392,
+      nombre: "Liverpool - Retro 95-96",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Retro/Retro 95-96/Retro 95-96 Frente.png",
+        "/camisetas/Premier League/Liverpool/Retro/Retro 95-96/Retro 95-96 Espalda.png",
+      ],
+    },
+    {
+      id: 393,
+      nombre: "Liverpool - Retro 96-97",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Retro/Retro 96-97/Retro 96-97 Frente.png",
+        "/camisetas/Premier League/Liverpool/Retro/Retro 96-97/Retro 96-97 Espalda.png",
+      ],
+    },
+    {
+      id: 394,
+      nombre: "Liverpool - Retro 98-99",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Retro/Retro 98-99/Retro 98-99 Frente.png",
+        "/camisetas/Premier League/Liverpool/Retro/Retro 98-99/Retro 98-99 Espalda.png",
+      ],
+    },
+    {
+      id: 395,
+      nombre: "Liverpool - Especial Retro 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Liverpool/Especial/Especial Retro 26-27/Especial Retro 26-27 Frente.png",
+        "/camisetas/Premier League/Liverpool/Especial/Especial Retro 26-27/Especial Retro 26-27 Espalda.png",
+      ],
+    },
+  ],
+},
+  ],
+},
 ]
