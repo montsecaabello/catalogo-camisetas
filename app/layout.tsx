@@ -15,10 +15,22 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Gol Shirt",
-  description: "Catálogo de camisetas de fútbol",
+  description: "Camisetas de fútbol premium",
   robots: {
     index: false,
     follow: false,
+  },
+  openGraph: {
+    title: "Gol Shirt",
+    description: "Camisetas de fútbol premium",
+    images: [
+      {
+        url: "/logo-gol-shirt.png",
+        width: 1200,
+        height: 630,
+        alt: "Gol Shirt",
+      },
+    ],
   },
 };
 
