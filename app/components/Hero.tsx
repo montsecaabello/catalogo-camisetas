@@ -23,6 +23,9 @@ const [equipo, setEquipo] = useState("Todos");
 const [pantalla, setPantalla] = useState("categorias");
 const { setCarrito, setAnimarCarrito } = useCarrito();
 const [tallasSeleccionadas, setTallasSeleccionadas] = useState<{[key: number]: string;}>({});
+const [tipoTalla, setTipoTalla] = useState<{
+  [key: number]: "adultos" | "ninos";
+}>({});
 const [versionSeleccionada, setVersionSeleccionada] = useState<{ [key: number]: "normal" | "personalizada" }>({});
 const [agregado, setAgregado] = useState<number | null>(null);
 const [nombrePersonalizado, setNombrePersonalizado] = useState<{ [key: number]: string }>({});
@@ -499,35 +502,165 @@ const camisetasFiltradas =
 
   <>
 
-<select
-  value={tallasSeleccionadas[camiseta.id] || ""}
-  onChange={(e) =>
-    setTallasSeleccionadas({
-      ...tallasSeleccionadas,
-      [camiseta.id]: e.target.value,
-    })
-  }
+<p
   style={{
-    width: "100%",
-    padding: "10px",
-    borderRadius: "8px",
     marginTop: "15px",
-    marginBottom: "10px",
-    fontSize: "16px",
+    marginBottom: "8px",
+    fontWeight: "bold",
+    color: "#2d241b",
   }}
 >
-  <option value="">
-    Selecciona talla
-  </option>
+  Selecciona el tipo de talla:
+</p>
 
-  {(camiseta.tallas || ["S", "M", "L", "XL", "XXL"]).map(
-    (talla: string) => (
-      <option key={talla} value={talla}>
-        {talla}
-      </option>
-    )
-  )}
-</select>
+<div
+  style={{
+    display: "flex",
+    gap: "10px",
+    marginBottom: "10px",
+  }}
+>
+  <button
+    type="button"
+    onClick={() => {
+      setTipoTalla({
+        ...tipoTalla,
+        [camiseta.id]: "ninos",
+      });
+
+      setTallasSeleccionadas({
+        ...tallasSeleccionadas,
+        [camiseta.id]: "",
+      });
+    }}
+    style={{
+      flex: 1,
+      padding: "11px",
+      borderRadius: "8px",
+      border: "1px solid #2d241b",
+      background:
+        tipoTalla[camiseta.id] === "ninos"
+          ? "#2d241b"
+          : "#fff",
+      color:
+        tipoTalla[camiseta.id] === "ninos"
+          ? "#fff"
+          : "#2d241b",
+      cursor: "pointer",
+      fontWeight: "bold",
+    }}
+  >
+    👦 Niños
+  </button>
+
+  <button
+    type="button"
+    onClick={() => {
+      setTipoTalla({
+        ...tipoTalla,
+        [camiseta.id]: "adultos",
+      });
+
+      setTallasSeleccionadas({
+        ...tallasSeleccionadas,
+        [camiseta.id]: "",
+      });
+    }}
+    style={{
+      flex: 1,
+      padding: "11px",
+      borderRadius: "8px",
+      border: "1px solid #2d241b",
+      background:
+        tipoTalla[camiseta.id] === "adultos"
+          ? "#2d241b"
+          : "#fff",
+      color:
+        tipoTalla[camiseta.id] === "adultos"
+          ? "#fff"
+          : "#2d241b",
+      cursor: "pointer",
+      fontWeight: "bold",
+    }}
+  >
+    👨 Adultos
+  </button>
+</div>
+
+{tipoTalla[camiseta.id] === "ninos" && (
+  <>
+    <div
+      style={{
+        background: "#fff3d6",
+        border: "1px solid #e6c98a",
+        borderRadius: "10px",
+        padding: "12px",
+        marginBottom: "10px",
+        color: "#5d4d3d",
+        fontSize: "14px",
+        lineHeight: "1.5",
+      }}
+    >
+      <strong>ℹ️ Tallas de niños: +1 €</strong>
+      <br />
+      El precio incluye <strong>camiseta + pantalón</strong> (conjunto completo).
+    </div>
+
+    <select
+      value={tallasSeleccionadas[camiseta.id] || ""}
+      onChange={(e) =>
+        setTallasSeleccionadas({
+          ...tallasSeleccionadas,
+          [camiseta.id]: e.target.value,
+        })
+      }
+      style={{
+        width: "100%",
+        padding: "10px",
+        borderRadius: "8px",
+        marginBottom: "10px",
+        fontSize: "16px",
+      }}
+    >
+      <option value="">Selecciona talla de niño</option>
+      {["3-4", "4-5", "5-6", "6-7", "8-9", "10-11", "12-13"].map(
+        (talla) => (
+          <option key={talla} value={talla}>
+            {talla}
+          </option>
+        )
+      )}
+    </select>
+  </>
+)}
+
+{tipoTalla[camiseta.id] === "adultos" && (
+  <select
+    value={tallasSeleccionadas[camiseta.id] || ""}
+    onChange={(e) =>
+      setTallasSeleccionadas({
+        ...tallasSeleccionadas,
+        [camiseta.id]: e.target.value,
+      })
+    }
+    style={{
+      width: "100%",
+      padding: "10px",
+      borderRadius: "8px",
+      marginBottom: "10px",
+      fontSize: "16px",
+    }}
+  >
+    <option value="">Selecciona talla de adulto</option>
+    {["S", "M", "L", "XL", "2XL", "3XL", "4XL"].map(
+      (talla) => (
+        <option key={talla} value={talla}>
+          {talla}
+        </option>
+      )
+    )}
+  </select>
+)}
 <p
   style={{
     marginTop: "10px",
@@ -572,7 +705,13 @@ const camisetasFiltradas =
     Sin personalizar
     <br />
    <strong>
-  {camiseta.nombre.includes("Retro") ? "21 €" : "19 €"}
+  {camiseta.nombre.includes("Retro")
+    ? tipoTalla[camiseta.id] === "ninos"
+      ? "22 €"
+      : "21 €"
+    : tipoTalla[camiseta.id] === "ninos"
+      ? "20 €"
+      : "19 €"}
 </strong>
   </button>
 
@@ -599,10 +738,16 @@ const camisetasFiltradas =
       cursor: "pointer",
     }}
   >
-    Personalizada
-    <br />
-    <strong>
-  {camiseta.nombre.includes("Retro") ? "24 €" : "22 €"}
+   Personalizada
+<br />
+<strong>
+  {camiseta.nombre.includes("Retro")
+    ? tipoTalla[camiseta.id] === "ninos"
+      ? "25 €"
+      : "24 €"
+    : tipoTalla[camiseta.id] === "ninos"
+      ? "23 €"
+      : "22 €"}
 </strong>
   </button>
 </div>
@@ -709,7 +854,7 @@ const camisetasFiltradas =
               return;
             }
 
-            if (seleccionados.length >= 2) {
+            if (seleccionados.length >= 1) {
               alert("Solo puedes elegir hasta 1 parche.");
               return;
             }
@@ -721,7 +866,7 @@ setParchesSeleccionados({
   [camiseta.id]: nuevosParches,
 });
 
-if (nuevosParches.length === 2) {
+if (nuevosParches.length === 1) {
   setParchesAbiertos({
     ...parchesAbiertos,
     [camiseta.id]: false,
@@ -767,14 +912,22 @@ setCarrito((actual: any[]) => {
     id: camiseta.id,
     nombre: camiseta.nombre,
     precio:
-     camiseta.nombre.includes("Retro")
-  ? versionSeleccionada[camiseta.id] === "personalizada"
-    ? "24 €"
-    : "21 €"
-  : versionSeleccionada[camiseta.id] === "personalizada"
-    ? "22 €"
-    : "19 €"
-    ,imagen: camiseta.imagenes[0],
+      camiseta.nombre.includes("Retro")
+        ? versionSeleccionada[camiseta.id] === "personalizada"
+          ? tipoTalla[camiseta.id] === "ninos"
+            ? "25 €"
+            : "24 €"
+          : tipoTalla[camiseta.id] === "ninos"
+            ? "22 €"
+            : "21 €"
+        : versionSeleccionada[camiseta.id] === "personalizada"
+          ? tipoTalla[camiseta.id] === "ninos"
+            ? "23 €"
+            : "22 €"
+          : tipoTalla[camiseta.id] === "ninos"
+            ? "20 €"
+            : "19 €",
+    imagen: camiseta.imagenes[0],
     talla: tallasSeleccionadas[camiseta.id],
     personalizada:
       versionSeleccionada[camiseta.id] === "personalizada",
