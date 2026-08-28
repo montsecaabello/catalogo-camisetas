@@ -12,28 +12,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-geist-mono",
 });
-
-export const metadata: Metadata = {
-  title: "Gol Shirt",
-  description: "Camisetas de fútbol premium",
-  robots: {
-    index: false,
-    follow: false,
-  },
+export const metadata = {
+  title: 'Gol Shirt',
+  description: 'Catálogo de camisetas de fútbol',
   openGraph: {
-    title: "Gol Shirt",
-    description: "Camisetas de fútbol premium",
-    images: [
-      {
-        url: "/logo-gol-shirt.png",
-        width: 1200,
-        height: 630,
-        alt: "Gol Shirt",
-      },
-    ],
+    title: 'Gol Shirt',
+    description: 'Catálogo de camisetas de fútbol',
+    images: ['/logo-gol-shirt.png'],
   },
-};
-
+}
 export default function RootLayout({
   children,
 }: {
