@@ -3418,10 +3418,108 @@ export const camisetas = [
             imagenes: [
               "/camisetas/Mundial 2026/españa/exclusiva/Exclusiva frente.png",
               "/camisetas/Mundial 2026/españa/exclusiva/Exclusiva espalda.png",
-          
- 
             ],
           },
+          {
+      id: 366,
+      nombre: "España - Especial España x Travis Scott",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Especial/Especial España x Travis Scott/Especial España x Travis Scott Frente.png",
+        "/camisetas/Mundial 2026/españa/Especial/Especial España x Travis Scott/Especial España x Travis Scott Espalda.png",
+      ],
+    },
+    {
+      id: 367,
+      nombre: "España - Retro local 1992",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1992/Retro local 1992/Retro local 1992 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1992/Retro local 1992/Retro local 1992 Espalda.png",
+      ],
+    },
+    {
+      id: 368,
+      nombre: "España - Retro visitante 1996",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1996/Retro visitante 1996/Retro visitante 1996 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1996/Retro visitante 1996/Retro visitante 1996 Espalda.png",
+      ],
+    },
+    {
+      id: 369,
+      nombre: "España - Retro visitante 1998",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1998/Retro visitante 1998/Retro visitante 1998 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1998/Retro visitante 1998/Retro visitante 1998 Espalda.png",
+      ],
+    },
+    {
+      id: 370,
+      nombre: "España - Retro local 1998",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1998/Retro local 1998/Retro local 1998 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 1998/Retro local 1998/Retro local 1998 Espalda.png",
+      ],
+    },
+    {
+      id: 371,
+      nombre: "España - Retro visitante 2000",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2000/Retro visitante 2000/Retro visitante 2000 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2000/Retro visitante 2000/Retro visitante 2000 Espalda.png",
+      ],
+    },
+    {
+      id: 372,
+      nombre: "España - Retro local 2000",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2000/Retro local 2000/Retro local 2000 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2000/Retro local 2000/Retro local 2000 Espalda.png",
+      ],
+    },
+    {
+      id: 374,
+      nombre: "España - Retro visitante 2006",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2006/Retro visitante 2006/Retro visitante 2006 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2006/Retro visitante 2006/Retro visitante 2006 Espalda.png",
+      ],
+    },
+    {
+      id: 375,
+      nombre: "España - Retro visitante 2008",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2008/Retro visitante 2008/Retro visitante 2008 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2008/Retro visitante 2008/Retro visitante 2008 Espalda.png",
+      ],
+    },
+    {
+      id: 376,
+      nombre: "España - Retro visitante 2011",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2011/Retro visitante 2011/Retro visitante 2011 Frente.png",
+        "/camisetas/Mundial 2026/españa/Retro/Retro 2011/Retro visitante 2011/Retro visitante 2011 Espalda.png",
+      ],
+    },
         ],
       },
       {
@@ -3862,6 +3960,221 @@ export const camisetas = [
         "/camisetas/Premier League/Liverpool/Especial/Especial Retro 26-27/Especial Retro 26-27 Espalda.png",
       ],
     },
+  ],
+},
+{
+  nombre: "Arsenal",
+  camisetas: [
+    {
+      id: 377,
+      nombre: "Arsenal - Entrenamiento naranja 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Entrenamiento/Entrenamiento 26-27/Entrenamiento naranja 26-27/Entrenamiento naranja 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Entrenamiento/Entrenamiento 26-27/Entrenamiento naranja 26-27/Entrenamiento naranja 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 378,
+      nombre: "Arsenal - Entrenamiento negra 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Entrenamiento/Entrenamiento 26-27/Entrenamiento negra 26-27/Entrenamiento negra 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Entrenamiento/Entrenamiento 26-27/Entrenamiento negra 26-27/Entrenamiento negra 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 379,
+      nombre: "Arsenal - Especial 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Especial/Especial 26-27/Especial 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Especial/Especial 26-27/Especial 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 380,
+      nombre: "Arsenal - Portero primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Portero/Portero 26-27/Portero primera 26-27/Portero primera 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Portero/Portero 26-27/Portero primera 26-27/Portero primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 381,
+      nombre: "Arsenal - Portero tercera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Portero/Portero 26-27/Portero tercera 26-27/Portero tercera 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Portero/Portero 26-27/Portero tercera 26-27/Portero tercera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 382,
+      nombre: "Arsenal - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 383,
+      nombre: "Arsenal - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 384,
+      nombre: "Arsenal - Tercera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Tercera 26-27/Tercera 26-27 Frente.png",
+        "/camisetas/Premier League/Arsenal/Tercera 26-27/Tercera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 385,
+      nombre: "Arsenal - Retro visitante 01-02",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Retro/Retro 01-02/Retro visitante 01-02/Retro visitante 01-02 Frente.png",
+        "/camisetas/Premier League/Arsenal/Retro/Retro 01-02/Retro visitante 01-02/Retro visitante 01-02 Espalda.png",
+      ],
+    },
+    {
+      id: 386,
+      nombre: "Arsenal - Retro tercera 07-08",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Retro/Retro 07-08/Retro tercera 07-08/Retro tercera 07-08 Frente.png",
+        "/camisetas/Premier League/Arsenal/Retro/Retro 07-08/Retro tercera 07-08/Retro tercera 07-08 Espalda.png",
+      ],
+    },
+    {
+      id: 387,
+      nombre: "Arsenal - Retro local 08-09",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Retro/Retro 08-09/Retro local 08-09/Retro local 08-09 Frente.png",
+        "/camisetas/Premier League/Arsenal/Retro/Retro 08-09/Retro local 08-09/Retro local 08-09 Espalda.png",
+      ],
+    },
+    {
+      id: 388,
+      nombre: "Arsenal - Retro visitante 11-12",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Retro/Retro 11-12/Retro visitante 11-12/Retro visitante 11-12 Frente.png",
+        "/camisetas/Premier League/Arsenal/Retro/Retro 11-12/Retro visitante 11-12/Retro visitante 11-12 Espalda.png",
+      ],
+    },
+    {
+      id: 389,
+      nombre: "Arsenal - Retro local 16-17",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Retro/Retro 16-17/Retro local 16-17/Retro local 16-17 Frente.png",
+        "/camisetas/Premier League/Arsenal/Retro/Retro 16-17/Retro local 16-17/Retro local 16-17 Espalda.png",
+      ],
+    },
+    {
+      id: 390,
+      nombre: "Arsenal - Retro visitante 90-91",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Retro/Retro 90-91/Retro visitante 90-91/Retro visitante 90-91 Frente.png",
+        "/camisetas/Premier League/Arsenal/Retro/Retro 90-91/Retro visitante 90-91/Retro visitante 90-91 Espalda.png",
+      ],
+    },
+    {
+      id: 391,
+      nombre: "Arsenal - Retro visitante 92-93",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Arsenal/Retro/Retro 92-93/Retro visitante 92-93/Retro visitante 92-93 Frente.png",
+        "/camisetas/Premier League/Arsenal/Retro/Retro 92-93/Retro visitante 92-93/Retro visitante 92-93 Espalda.png",
+      ],
+    },
+    {
+  id: 392,
+  nombre: "Arsenal - Retro local 01-02",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/Premier League/Arsenal/Retro/Retro 01-02/Retro local 01-02/Retro local 01-02 Frente.png",
+    "/camisetas/Premier League/Arsenal/Retro/Retro 01-02/Retro local 01-02/Retro local 01-02 Espalda.png",
+  ],
+},
+{
+  id: 393,
+  nombre: "Arsenal - Retro visitante 07-08",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/Premier League/Arsenal/Retro/Retro 07-08/Retro visitante 07-08/Retro visitante 07-08 Frente.png",
+    "/camisetas/Premier League/Arsenal/Retro/Retro 07-08/Retro visitante 07-08/Retro visitante 07-08 Espalda.png",
+  ],
+},
+{
+  id: 394,
+  nombre: "Arsenal - Retro local 07-08",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/Premier League/Arsenal/Retro/Retro 07-08/Retro local 07-08/Retro local 07-08 Frente.png",
+    "/camisetas/Premier League/Arsenal/Retro/Retro 07-08/Retro local 07-08/Retro local 07-08 Espalda.png",
+  ],
+},
+{
+  id: 395,
+  nombre: "Arsenal - Retro local 11-12",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/Premier League/Arsenal/Retro/Retro 11-12/Retro local 11-12/Retro local 11-12 Frente.png",
+    "/camisetas/Premier League/Arsenal/Retro/Retro 11-12/Retro local 11-12/Retro local 11-12 Espalda.png",
+  ],
+},
+{
+  id: 396,
+  nombre: "Arsenal - Retro local 90-91",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/Premier League/Arsenal/Retro/Retro 90-91/Retro local 90-91/Retro local 90-91 Frente.png",
+    "/camisetas/Premier League/Arsenal/Retro/Retro 90-91/Retro local 90-91/Retro local 90-91 Espalda.png",
+  ],
+},
+{
+  id: 397,
+  nombre: "Arsenal - Retro local 92-93",
+  precio: "21 €",
+  premium: "24 €",
+  imagenes: [
+    "/camisetas/Premier League/Arsenal/Retro/Retro 92-93/Retro local 92-93/Retro local 92-93 Frente.png",
+    "/camisetas/Premier League/Arsenal/Retro/Retro 92-93/Retro local 92-93/Retro local 92-93 Espalda.png",
+  ],
+},
   ],
 },
   ],
