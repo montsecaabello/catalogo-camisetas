@@ -138,17 +138,6 @@ const camisetasFiltradas =
     marginBottom: "35px",
   }}
 >
-  <img
-    src="/logo-gol-shirt.png"
-    alt="Gol Shirt"
-    style={{
-      width: "150px",
-      height: "150px",
-      objectFit: "contain",
-      display: "block",
-      marginBottom: "18px",
-    }}
-  />
 
   <div
   style={{
@@ -317,7 +306,7 @@ const camisetasFiltradas =
                   height: "90px",
                   margin: "0 auto 10px",
                   background: "#fff",
-                  border: "1px solid #e8e1d8",
+                  border: "2px solid #111",
                   borderRadius: "18px",
                   display: "flex",
                   alignItems: "center",
@@ -359,8 +348,8 @@ const camisetasFiltradas =
   style={{
     maxWidth: "760px",
     margin: "0 auto 40px",
-    background: "#fffaf4",
-    border: "1px solid #e6d8c3",
+    background: "#fff",
+    border: "2px solid #111",
     borderRadius: "16px",
     padding: "22px",
     boxShadow: "0 8px 20px rgba(0,0,0,0.06)",
@@ -443,9 +432,9 @@ const camisetasFiltradas =
   <>
     <button
       onClick={() => {
-        setPantalla("equipos");
-        setEquipo("Todos");
-      }}
+  setPantalla("categorias");
+  setEquipo("Todos");
+}}
       style={{
         marginBottom: "30px",
         padding: "12px 20px",
@@ -666,8 +655,8 @@ const camisetasFiltradas =
   style={{
     maxWidth: "900px",
     margin: "60px auto 20px",
-    background: "#fffaf4",
-    border: "1px solid #e6d8c3",
+    background: "#fff",
+    border: "2px solid #111",
     borderRadius: "16px",
     padding: "24px",
     textAlign: "left",

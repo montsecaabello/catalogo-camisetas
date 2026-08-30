@@ -42,22 +42,24 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
 
   return (
     <main
-      style={{
-        minHeight: "100vh",
-        background: "#f7f3ed",
-        padding: "40px 20px",
-        fontFamily: "Arial, sans-serif",
-      }}
-    >
+  style={{
+    minHeight: "100vh",
+    background: "#fff",
+    padding: "25px 12px",
+    fontFamily: "Arial, sans-serif",
+    boxSizing: "border-box",
+  }}
+>
       <div
-        style={{
-          maxWidth: "1100px",
-          margin: "0 auto",
-          background: "#fff",
-          borderRadius: "20px",
-          padding: "30px",
-        }}
-      >
+  style={{
+    maxWidth: "1100px",
+    margin: "0 auto",
+    background: "#fff",
+    borderRadius: "20px",
+    padding: "30px",
+    boxSizing: "border-box",
+  }}
+>
         <a
           href="/"
           style={{
@@ -80,13 +82,14 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
         </h1>
 
         <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            gap: "40px",
-            marginTop: "30px",
-          }}
-        >
+  className="camiseta-contenido"
+  style={{
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    gap: "40px",
+    marginTop: "30px",
+  }}
+>
           <div>
 <div
   style={{
@@ -95,18 +98,19 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
 ></div>   
 
   <img
-    src={camiseta.imagenes?.[imagenActiva]}
-    alt={camiseta.nombre}
-
-onClick={() => setImagenAmpliada(true)}
-
-style={{
-      width: "100%",
-      borderRadius: "15px",
-      display: "block",
-      cursor: "zoom-in",
-    }}
-  />
+  src={camiseta.imagenes?.[imagenActiva]}
+  alt={camiseta.nombre}
+  onClick={() => setImagenAmpliada(true)}
+  style={{
+    width: "100%",
+    maxWidth: "100%",
+    height: "auto",
+    borderRadius: "15px",
+    display: "block",
+    cursor: "zoom-in",
+    objectFit: "contain",
+  }}
+/>
 
   {camiseta.imagenes && camiseta.imagenes.length > 1 && (
     <div
@@ -496,6 +500,20 @@ style={{
     />
   </div>
 )}
+<style jsx>{`
+  @media (max-width: 768px) {
+    .camiseta-contenido {
+      grid-template-columns: 1fr !important;
+      gap: 25px !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .camiseta-contenido {
+      gap: 20px !important;
+    }
+  }
+`}</style>
     </main>
   );
 }
