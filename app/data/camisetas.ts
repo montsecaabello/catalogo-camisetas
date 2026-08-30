@@ -4382,6 +4382,145 @@ export const camisetas = [
     },
   ],
 },
+{
+  nombre: "Tottenham Hotspur",
+
+  camisetas: [
+
+    {
+      id: 418,
+      nombre: "Tottenham Hotspur - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+
+    {
+      id: 419,
+      nombre: "Tottenham Hotspur - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+
+    {
+      id: 420,
+      nombre: "Tottenham Hotspur - Tercera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Tercera 26-27/Tercera 26-27 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Tercera 26-27/Tercera 26-27 Espalda.png",
+      ],
+    },
+
+    {
+      id: 421,
+      nombre: "Tottenham Hotspur - Portero local 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Portero/Portero local 26-27/Portero local 26-27 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Portero/Portero local 26-27/Portero local 26-27 Espalda.png",
+      ],
+    },
+
+    {
+      id: 422,
+      nombre: "Tottenham Hotspur - Retro local 06-07",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 06-07/Retro local 06-07/Retro local 06-07 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 06-07/Retro local 06-07/Retro local 06-07 Espalda.png",
+      ],
+    },
+
+    {
+      id: 423,
+      nombre: "Tottenham Hotspur - Retro visitante 06-07",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 06-07/Retro visitante 06-07/Retro visitante 06-07 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 06-07/Retro visitante 06-07/Retro visitante 06-07 Espalda.png",
+      ],
+    },
+
+    {
+      id: 424,
+      nombre: "Tottenham Hotspur - Retro local 09-10",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 09-10/Retro local 09-10/Retro local 09-10 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 09-10/Retro local 09-10/Retro local 09-10 Espalda.png",
+      ],
+    },
+
+    {
+      id: 425,
+      nombre: "Tottenham Hotspur - Retro local 92-93",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 92-93/Retro local 92-93/Retro local 92-93 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 92-93/Retro local 92-93/Retro local 92-93 Espalda.png",
+      ],
+    },
+
+    {
+      id: 426,
+      nombre: "Tottenham Hotspur - Retro visitante 92-93",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 92-93/Retro visitante 92-93/Retro visitante 92-93 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 92-93/Retro visitante 92-93/Retro visitante 92-93 Espalda.png",
+      ],
+    },
+
+    {
+      id: 427,
+      nombre: "Tottenham Hotspur - Retro local 95-96",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 95-96/Retro local 95-96/Retro local 95-96 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 95-96/Retro local 95-96/Retro local 95-96 Espalda.png",
+      ],
+    },
+
+    {
+      id: 428,
+      nombre: "Tottenham Hotspur - Retro visitante 95-96",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 95-96/Retro visitante 95-96/Retro visitante 95-96 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 95-96/Retro visitante 95-96/Retro visitante 95-96 Espalda.png",
+      ],
+    },
+
+    {
+      id: 429,
+      nombre: "Tottenham Hotspur - Retro local 97-98",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 97-98/Retro local 97-98/Retro local 97-98 Frente.png",
+        "/camisetas/Premier League/Tottenham Hotspur/Retro/Retro 97-98/Retro local 97-98/Retro local 97-98 Espalda.png",
+      ],
+    },
+
+  ],
+},
   ],
 },
 ]

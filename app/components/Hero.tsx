@@ -116,13 +116,13 @@ const camisetasFiltradas =
 
   return (
     <section
-      style={{
-        minHeight: "100vh",
-        background: "linear-gradient(to bottom, #f8f4ec, #efe4d2)",
-        color: "#2f2419",
-        padding: "50px 20px",
-      }}
-    >
+  style={{
+    minHeight: "100vh",
+    background: "#ffffff",
+    color: "#111111",
+    padding: "40px 20px 80px",
+  }}
+>
       <div
         style={{
           maxWidth: "1200px",
@@ -130,26 +130,116 @@ const camisetasFiltradas =
           textAlign: "center",
         }}
       >
-        <h1
-          className={bebas.className}
-          style={{
-            fontSize: "clamp(70px, 10vw, 110px)",
-            letterSpacing: "4px",
-            marginBottom: "20px",
-            color: "#2d241b",
-          }}
-        >
-          GOL SHIRT
-        </h1>
+        <div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    marginBottom: "35px",
+  }}
+>
+  <img
+    src="/logo-gol-shirt.png"
+    alt="Gol Shirt"
+    style={{
+      width: "150px",
+      height: "150px",
+      objectFit: "contain",
+      display: "block",
+      marginBottom: "18px",
+    }}
+  />
 
-        <p
-          style={{
-            fontSize: "22px",
-            color: "#5d4d3d",
-          }}
-        >
-          Camisetas de fútbol premium
-        </p>
+  <div
+  style={{
+    marginBottom: "35px",
+    textAlign: "center",
+  }}
+>
+  {/* CABECERA ESTILO GOL SHIRT */}
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: "18px",
+      marginBottom: "8px",
+    }}
+  >
+    <div
+      style={{
+        height: "2px",
+        width: "90px",
+        background: "#111",
+      }}
+    />
+
+    <span
+      style={{
+        fontSize: "34px",
+        lineHeight: 1,
+      }}
+    >
+      ⚽
+    </span>
+
+    <div
+      style={{
+        height: "2px",
+        width: "90px",
+        background: "#111",
+      }}
+    />
+  </div>
+
+  <h1
+    className={bebas.className}
+    style={{
+      margin: 0,
+      fontSize: "clamp(72px, 11vw, 125px)",
+      lineHeight: "0.85",
+      letterSpacing: "5px",
+      color: "#111",
+    }}
+  >
+    GOL SHIRT
+  </h1>
+
+  <p
+    style={{
+      margin: "18px 0 0",
+      fontSize: "clamp(14px, 2vw, 20px)",
+      fontWeight: "700",
+      letterSpacing: "8px",
+      color: "#111",
+    }}
+  >
+    YOUR SHIRT. YOUR GAME.
+  </p>
+
+  <div
+    style={{
+      width: "min(620px, 80%)",
+      height: "2px",
+      background: "#111",
+      margin: "18px auto 10px",
+    }}
+  />
+
+  <p
+    style={{
+      margin: 0,
+      fontSize: "14px",
+      fontWeight: "700",
+      letterSpacing: "6px",
+      color: "#555",
+    }}
+  >
+    EST. 2026
+  </p>
+
+</div>
+</div>
 
         <input
           type="text"
@@ -171,32 +261,96 @@ const camisetasFiltradas =
 {pantalla === "categorias" && (
   <div
     style={{
-      display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-      gap: "20px",
-      marginBottom: "30px",
+      width: "100%",
+      marginBottom: "40px",
     }}
   >
     {camisetas.map((cat: any) => (
       <div
         key={cat.nombre}
-        onClick={() => {
-          setCategoria(cat.nombre);
-          setEquipo("Todos");
-          setPantalla("equipos");
-        }}
         style={{
-          background: "#fffaf4",
-          border: "1px solid #e6d8c3",
-          borderRadius: "16px",
-          padding: "35px",
-          cursor: "pointer",
-          fontSize: "26px",
-          fontWeight: "bold",
-          boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+          marginBottom: "35px",
+          textAlign: "left",
         }}
       >
-        {cat.nombre}
+        <h2
+          style={{
+            margin: "0 0 15px",
+            color: "#2d241b",
+            fontSize: "28px",
+            fontWeight: "800",
+          }}
+        >
+          {cat.nombre}
+        </h2>
+
+        <div
+          style={{
+            display: "flex",
+            gap: "18px",
+            overflowX: "auto",
+            overflowY: "hidden",
+            padding: "5px 5px 15px",
+            WebkitOverflowScrolling: "touch",
+            scrollbarWidth: "thin",
+          }}
+        >
+          {cat.equipos?.map((e: any) => (
+            <div
+              key={e.nombre}
+              onClick={() => {
+                setCategoria(cat.nombre);
+                setEquipo(e.nombre);
+                setPantalla("camisetas");
+              }}
+              style={{
+                minWidth: "105px",
+                width: "105px",
+                flexShrink: 0,
+                textAlign: "center",
+                cursor: "pointer",
+              }}
+            >
+              <div
+                style={{
+                  width: "90px",
+                  height: "90px",
+                  margin: "0 auto 10px",
+                  background: "#fff",
+                  border: "1px solid #e8e1d8",
+                  borderRadius: "18px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "12px",
+                  boxSizing: "border-box",
+                  boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
+                }}
+              >
+                <img
+  src={`/escudos/Escudo ${e.nombre}.png`}
+  alt={`Escudo ${e.nombre}`}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+  }}
+/>
+              </div>
+
+              <div
+                style={{
+                  color: "#2d241b",
+                  fontSize: "14px",
+                  fontWeight: "700",
+                  lineHeight: "1.2",
+                }}
+              >
+                {e.nombre}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     ))}
   </div>
@@ -369,7 +523,7 @@ const camisetasFiltradas =
   style={{
     position: "relative",
     width: "100%",
-    aspectRatio: "1 / 1",
+    aspectRatio: "4 / 5",
     background: "#f7f7f7",
     borderRadius: "16px",
     overflow: "hidden",
@@ -385,16 +539,16 @@ const camisetasFiltradas =
   }}
 >
   <img
-    src={camiseta.imagenes[imagenActiva[camiseta.id] || 0]}
-    alt={camiseta.nombre}
-    style={{
-      width: "100%",
-      height: "100%",
-      objectFit: "contain",
-      cursor: "pointer",
-      display: "block",
-    }}
-  />
+  src={camiseta.imagenes[imagenActiva[camiseta.id] || 0]}
+  alt={camiseta.nombre}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+    cursor: "pointer",
+    display: "block",
+  }}
+/>
 </a>
 
 </div>
