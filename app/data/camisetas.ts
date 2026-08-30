@@ -4177,6 +4177,211 @@ export const camisetas = [
 },
   ],
 },
+{
+  nombre: "Chelsea",
+  camisetas: [
+    {
+      id: 398,
+      nombre: "Chelsea - Primera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Primera 26-27/Primera 26-27 Frente.png",
+        "/camisetas/Premier League/Chelsea/Primera 26-27/Primera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 399,
+      nombre: "Chelsea - Segunda 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Segunda 26-27/Segunda 26-27 Frente.png",
+        "/camisetas/Premier League/Chelsea/Segunda 26-27/Segunda 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 400,
+      nombre: "Chelsea - Tercera 26-27",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Tercera 26-27/Tercera 26-27 Frente.png",
+        "/camisetas/Premier League/Chelsea/Tercera 26-27/Tercera 26-27 Espalda.png",
+      ],
+    },
+    {
+      id: 401,
+      nombre: "Chelsea - Especial Chelsea x Score Draw",
+      precio: "19 €",
+      premium: "22 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Especial/Especial Chelsea x Score Draw/Especial Chelsea x Score Draw Frente.png",
+        "/camisetas/Premier League/Chelsea/Especial/Especial Chelsea x Score Draw/Especial Chelsea x Score Draw Espalda.png",
+      ],
+    },
+    {
+      id: 402,
+      nombre: "Chelsea - Retro visitante 03-04",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 03-04/Retro visitante 03-04/Retro visitante 03-04 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 03-04/Retro visitante 03-04/Retro visitante 03-04 Espalda.png",
+      ],
+    },
+    {
+      id: 403,
+      nombre: "Chelsea - Retro local 06-07",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 06-07/Retro local 06-07/Retro local 06-07 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 06-07/Retro local 06-07/Retro local 06-07 Espalda.png",
+      ],
+    },
+    {
+      id: 404,
+      nombre: "Chelsea - Retro local 08-09",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 08-09/Retro local 08-09/Retro local 08-09 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 08-09/Retro local 08-09/Retro local 08-09 Espalda.png",
+      ],
+    },
+    {
+      id: 405,
+      nombre: "Chelsea - Retro visitante 10-11",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 10-11/Retro visitante 10-11/Retro visitante 10-11 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 10-11/Retro visitante 10-11/Retro visitante 10-11 Espalda.png",
+      ],
+    },
+    {
+      id: 406,
+      nombre: "Chelsea - Retro visitante 11-12",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 11-12/Retro visitante 11-12/Retro visitante 11-12 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 11-12/Retro visitante 11-12/Retro visitante 11-12 Espalda.png",
+      ],
+    },
+    {
+      id: 407,
+      nombre: "Chelsea - Retro local 11-12",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 11-12/Retro local 11-12/Retro local 11-12 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 11-12/Retro local 11-12/Retro local 11-12 Espalda.png",
+      ],
+    },
+    {
+      id: 408,
+      nombre: "Chelsea - Retro tercera 11-12",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 11-12/Retro tercera 11-12/Retro tercera 11-12 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 11-12/Retro tercera 11-12/Retro tercera 11-12 Espalda.png",
+      ],
+    },
+    {
+      id: 409,
+      nombre: "Chelsea - Retro visitante 12-13",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 12-13/Retro visitante 12-13/Retro visitante 12-13 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 12-13/Retro visitante 12-13/Retro visitante 12-13 Espalda.png",
+      ],
+    },
+    {
+      id: 410,
+      nombre: "Chelsea - Retro local 12-13",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 12-13/Retro local 12-13/Retro local 12-13 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 12-13/Retro local 12-13/Retro local 12-13 Espalda.png",
+      ],
+    },
+    {
+      id: 411,
+      nombre: "Chelsea - Retro tercera 12-13",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 12-13/Retro tercera 12-13/Retro tercera 12-13 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 12-13/Retro tercera 12-13/Retro tercera 12-13 Espalda.png",
+      ],
+    },
+    {
+      id: 412,
+      nombre: "Chelsea - Retro tercera 19-20",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 19-20/Retro tercera 19-20/Retro tercera 19-20 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 19-20/Retro tercera 19-20/Retro tercera 19-20 Espalda.png",
+      ],
+    },
+    {
+      id: 413,
+      nombre: "Chelsea - Retro local 89-90",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 89-90/Retro local 89-90/Retro local 89-90 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 89-90/Retro local 89-90/Retro local 89-90 Espalda.png",
+      ],
+    },
+    {
+      id: 414,
+      nombre: "Chelsea - Retro local 95-96",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 95-96/Retro local 95-96/Retro local 95-96 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 95-96/Retro local 95-96/Retro local 95-96 Espalda.png",
+      ],
+    },
+    {
+      id: 415,
+      nombre: "Chelsea - Retro visitante 95-96",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 95-96/Retro visitante 95-96/Retro visitante 95-96 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 95-96/Retro visitante 95-96/Retro visitante 95-96 Espalda.png",
+      ],
+    },
+    {
+      id: 416,
+      nombre: "Chelsea - Retro local 97-98",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 97-98/Retro local 97-98/Retro local 97-98 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 97-98/Retro local 97-98/Retro local 97-98 Espalda.png",
+      ],
+    },
+    {
+      id: 417,
+      nombre: "Chelsea - Retro visitante 98-99",
+      precio: "21 €",
+      premium: "24 €",
+      imagenes: [
+        "/camisetas/Premier League/Chelsea/Retro/Retro 98-99/Retro visitante 98-99/Retro visitante 98-99 Frente.png",
+        "/camisetas/Premier League/Chelsea/Retro/Retro 98-99/Retro visitante 98-99/Retro visitante 98-99 Espalda.png",
+      ],
+    },
+  ],
+},
   ],
 },
 ]
