@@ -3,26 +3,29 @@
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { camisetas } from "../../data/camisetas";
+import { useCarrito } from "../../components/CarritoContext";
 
 export default function CamisetaPage() {
+  const [anadidoAlCarrito, setAnadidoAlCarrito] = useState(false);
     const [tipoTalla, setTipoTalla] = useState<"ninos" | "adultos" | "">("");
     const [imagenActiva, setImagenActiva] = useState(0);
+    const { agregarAlCarrito } = useCarrito();
     const [imagenAmpliada, setImagenAmpliada] = useState(false);
-const [tallaSeleccionada, setTallaSeleccionada] = useState("");
-const [versionSeleccionada, setVersionSeleccionada] = useState<
-  "normal" | "personalizada"
->("normal");
-const [guiaAmpliada, setGuiaAmpliada] = useState(false);
-const [nombrePersonalizado, setNombrePersonalizado] = useState("");
-const [numeroPersonalizado, setNumeroPersonalizado] = useState("");
-const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
-  const params = useParams();
-  const id = Number(params.id);
+    const [tallaSeleccionada, setTallaSeleccionada] = useState("");
+    const [versionSeleccionada, setVersionSeleccionada] = useState<
+    "normal" | "personalizada"
+    >("normal");
+    const [guiaAmpliada, setGuiaAmpliada] = useState(false);
+    const [nombrePersonalizado, setNombrePersonalizado] = useState("");
+    const [numeroPersonalizado, setNumeroPersonalizado] = useState("");
+    const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
+    const params = useParams();
+    const id = Number(params.id);
 
-  const camiseta = camisetas
-  .flatMap((competicion: any) => competicion.equipos || [])
-  .flatMap((equipo: any) => equipo.camisetas || [])
-  .find((c: any) => c.id === id);
+    const camiseta = camisetas
+    .flatMap((competicion: any) => competicion.equipos || [])
+    .flatMap((equipo: any) => equipo.camisetas || [])
+    .find((c: any) => c.id === id);
 
   if (!camiseta) {
     return (
@@ -150,7 +153,15 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
                 color: "#8a6b3f",
               }}
             >
-              Desde {camiseta.nombre.includes("Retro") ? "21 €" : camiseta.precio}
+              Desde {
+  camiseta.nombre.includes("Retro")
+    ? tipoTalla === "ninos"
+      ? "22 €"
+      : "21 €"
+    : tipoTalla === "ninos"
+    ? "20 €"
+    : camiseta.precio
+}
             </p>
 
            <h2>Elige tu talla</h2>
@@ -235,6 +246,25 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
     )}
   </div>
 )}
+{tipoTalla === "ninos" && (
+  <div
+    style={{
+      marginBottom: "15px",
+      padding: "12px 14px",
+      background: "#f7f1e8",
+      border: "1px solid #e6d8c3",
+      borderRadius: "10px",
+      color: "#5d4d3d",
+      fontSize: "14px",
+      lineHeight: "1.5",
+      textAlign: "center",
+    }}
+  >
+    👕🩳 <strong>El conjunto infantil incluye camiseta + pantalón.</strong>
+    <br />
+    Por eso tiene un suplemento de 1 €.
+  </div>
+)}
 
 {tipoTalla === "adultos" && (
   <div
@@ -310,9 +340,15 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
   >
     Sin personalizar
     <br />
-    <span style={{ fontSize: "18px" }}>
-      {camiseta.nombre.includes("Retro") ? "21 €" : camiseta.precio}
-    </span>
+    <strong>
+  {camiseta.nombre.includes("Retro")
+    ? tipoTalla === "ninos"
+      ? "22 €"
+      : "21 €"
+    : tipoTalla === "ninos"
+    ? "20 €"
+    : "19 €"}
+</strong>
   </button>
 
   <button
@@ -337,9 +373,15 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
   >
     Personalizada
     <br />
-    <span style={{ fontSize: "18px" }}>
-      {camiseta.nombre.includes("Retro") ? "24 €" : "22 €"}
-    </span>
+    <strong>
+  {camiseta.nombre.includes("Retro")
+    ? tipoTalla === "ninos"
+      ? "25 €"
+      : "24 €"
+    : tipoTalla === "ninos"
+    ? "23 €"
+    : "22 €"}
+</strong>
   </button>
 </div>
 
@@ -379,6 +421,75 @@ const [parchesSeleccionados, setParchesSeleccionados] = useState<string[]>([]);
     />
   </div>
 )}        
+<button
+  type="button"
+ onClick={() => {
+  if (!tallaSeleccionada) {
+    alert("Selecciona una talla antes de añadir la camiseta al carrito.");
+    return;
+  }
+
+  agregarAlCarrito({
+    id: camiseta.id,
+    nombre: camiseta.nombre,
+    imagen: camiseta.imagenes?.[0],
+    talla: tallaSeleccionada,
+    version: versionSeleccionada,
+    nombrePersonalizado:
+      versionSeleccionada === "personalizada"
+        ? nombrePersonalizado
+        : "",
+    numeroPersonalizado:
+      versionSeleccionada === "personalizada"
+        ? numeroPersonalizado
+        : "",
+    parches: parchesSeleccionados,
+    precio:
+  versionSeleccionada === "personalizada"
+    ? camiseta.nombre.includes("Retro")
+      ? tipoTalla === "ninos"
+        ? 25
+        : 24
+      : tipoTalla === "ninos"
+      ? 23
+      : 22
+    : camiseta.nombre.includes("Retro")
+    ? tipoTalla === "ninos"
+      ? 22
+      : 21
+    : tipoTalla === "ninos"
+    ? 20
+    : 19,
+  });
+
+  setAnadidoAlCarrito(true);
+
+setTimeout(() => {
+  setAnadidoAlCarrito(false);
+}, 800);
+
+}}
+  style={{
+    width: "100%",
+    padding: "15px",
+    marginTop: "30px",
+    marginBottom: "10px",
+    borderRadius: "10px",
+    border: "none",
+    background: anadidoAlCarrito ? "#3a7d44" : "#2d241b",
+    color: "#fff",
+    fontSize: "17px",
+    fontWeight: "bold",
+    cursor: "pointer",
+    transition: "background 0.2s ease, transform 0.2s ease",
+    transform: anadidoAlCarrito ? "scale(1.02)" : "scale(1)",
+  }}
+>
+  {anadidoAlCarrito
+    ? "✓ ¡Añadido al carrito!"
+    : "🛒 Añadir al carrito"}
+</button>
+
               <div
   style={{
     marginTop: "40px",

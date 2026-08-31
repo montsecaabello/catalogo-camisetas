@@ -4,15 +4,26 @@ import { useState } from "react";
 import { useCarrito } from "./CarritoContext";
 
 export default function Carrito() {
-  const { carrito, setCarrito, animarCarrito } = useCarrito();
+  console.log("🚨 CARRITO.TSX ESTÁ CARGADO");
+const {
+  carrito,
+  setCarrito,
+  animarCarrito,
+} = useCarrito();
+
+console.log("CARRITO:", carrito);
+console.log("ANIMAR:", animarCarrito);
   const [abierto, setAbierto] = useState(false);
-  const [animar, setAnimar] = useState(false);
+
 
 const total = carrito.reduce((acc: number, producto: any) => {
-  const precio = Number(producto.precio.replace("€", "").trim());
+  const precio =
+    typeof producto.precio === "number"
+      ? producto.precio
+      : Number(String(producto.precio).replace("€", "").trim());
+
   return acc + precio * (producto.cantidad || 1);
 }, 0);
-
   return (
     <>
       <div
@@ -29,8 +40,11 @@ const total = carrito.reduce((acc: number, producto: any) => {
           cursor: "pointer",
           zIndex: 9999,
           boxShadow: "0 8px 20px rgba(0,0,0,0.20)",
-          transition: "0.2s",
-          transform: animarCarrito ? "scale(1.12)" : "scale(1)",
+          transition: "transform 0.35s ease",
+          animation: animarCarrito ? "reboteCarrito 0.5s ease" : "none",
+          transform: animarCarrito
+          ? "scale(1.15) rotate(-3deg)"
+          : "scale(1) rotate(0deg)",
         }}
       >
         <>
@@ -49,6 +63,22 @@ const total = carrito.reduce((acc: number, producto: any) => {
   >
     {carrito.length}
   </span>
+  <style jsx>{`
+  @keyframes reboteCarrito {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    30% {
+      transform: scale(1.2) rotate(-5deg);
+    }
+    60% {
+      transform: scale(1.1) rotate(5deg);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+    }
+  }
+`}</style>
 </>
       </div>
 
@@ -119,19 +149,19 @@ const total = carrito.reduce((acc: number, producto: any) => {
   <p>Talla: {producto.talla}</p>
 
   <p>
-    Versión:{" "}
-    {producto.personalizada
-      ? "Personalizada"
-      : "Sin personalizar"}
-  </p>
+  Versión:{" "}
+  {producto.version === "personalizada"
+    ? "Personalizada"
+    : "Sin personalizar"}
+</p>
 
-  {producto.personalizada && producto.nombreDorsal && (
-    <p>Nombre: {producto.nombreDorsal}</p>
-  )}
+{producto.version === "personalizada" && producto.nombrePersonalizado && (
+  <p>🏷️ Nombre: {producto.nombrePersonalizado}</p>
+)}
 
-  {producto.personalizada && producto.numeroDorsal && (
-    <p>Número: {producto.numeroDorsal}</p>
-  )}
+{producto.version === "personalizada" && producto.numeroPersonalizado && (
+  <p>🔢 Número: {producto.numeroPersonalizado}</p>
+)}
   {producto.parches?.length > 0 && (
   <p>
     <strong>Parches:</strong> {producto.parches.join(", ")}
@@ -146,7 +176,10 @@ const total = carrito.reduce((acc: number, producto: any) => {
                     color: "#8a6b3f",
                   }}
                 >
-                  {Number(producto.precio.replace("€", "")) * (producto.cantidad || 1)} €
+                 {(typeof producto.precio === "number"
+  ? producto.precio
+  : Number(String(producto.precio).replace("€", "").trim())) *
+  (producto.cantidad || 1)} €
                 </p>
 
                 <div
@@ -293,7 +326,10 @@ const total = carrito.reduce((acc: number, producto: any) => {
 
   carrito.forEach((producto: any, index: number) => {
     const cantidad = producto.cantidad || 1;
-    const precio = Number(producto.precio.replace("€", "").trim());
+     const precio =
+  typeof producto.precio === "number"
+    ? producto.precio
+    : Number(String(producto.precio).replace("€", "").trim());
 
     total += precio * cantidad;
 
@@ -303,14 +339,21 @@ const total = carrito.reduce((acc: number, producto: any) => {
 
     mensaje += `👕 Talla: ${producto.talla}\n`;
 
-    mensaje += `🎨 Versión: ${
-      producto.personalizada ? "Personalizada" : "Sin personalizar"
-    }\n`;
+   mensaje += `🎨 Versión: ${
+  producto.version === "personalizada"
+    ? "Personalizada"
+    : "Sin personalizar"
+}\n`;
 
-    if (producto.personalizada) {
-      mensaje += `🏷️ Nombre: ${producto.nombreDorsal}\n`;
-      mensaje += `🔢 Número: ${producto.numeroDorsal}\n`;
-    }
+if (producto.version === "personalizada") {
+  if (producto.nombrePersonalizado) {
+    mensaje += `🏷️ Nombre: ${producto.nombrePersonalizado}\n`;
+  }
+
+  if (producto.numeroPersonalizado) {
+    mensaje += `🔢 Número: ${producto.numeroPersonalizado}\n`;
+  }
+}
     if (producto.parches?.length > 0) {
   mensaje += `Parches: ${producto.parches.join(", ")}\n`;
 }

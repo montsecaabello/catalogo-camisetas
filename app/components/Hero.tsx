@@ -98,18 +98,18 @@ const camisetasFiltradas =
         }
 
         if (orden === "precioMenor") {
-          const precioA = parseInt(a.precio);
-          const precioB = parseInt(b.precio);
+  const precioA = a.nombre.includes("Retro") ? 21 : 19;
+  const precioB = b.nombre.includes("Retro") ? 21 : 19;
 
-          return precioA - precioB;
-        }
+  return precioA - precioB;
+}
 
-        if (orden === "precioMayor") {
-          const precioA = parseInt(a.precio);
-          const precioB = parseInt(b.precio);
+if (orden === "precioMayor") {
+  const precioA = a.nombre.includes("Retro") ? 21 : 19;
+  const precioB = b.nombre.includes("Retro") ? 21 : 19;
 
-          return precioB - precioA;
-        }
+  return precioB - precioA;
+}
 
         return 0;
       });
