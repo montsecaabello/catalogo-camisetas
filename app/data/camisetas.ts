@@ -4,6 +4,7 @@ export const camisetas = [
     equipos: [
       {
   nombre: "Barcelona",
+  escudo: "/escudos/Escudo Barcelona.png",
   camisetas: [
     {
       id: 268,
@@ -389,6 +390,7 @@ export const camisetas = [
 },
       {
         nombre: "Betis",
+        escudo: "/escudos/Escudo Betis.png",
         camisetas: [
           {
             id: 3,
@@ -574,6 +576,7 @@ export const camisetas = [
         ],
       },{
   nombre: "Real Madrid",
+  escudo: "/escudos/Escudo Real Madrid.png",
   camisetas: [
     {
       id: 253,
@@ -909,6 +912,7 @@ export const camisetas = [
 },
       {
         nombre: "Sevilla",
+        escudo: "/escudos/Escudo Sevilla.png",
         camisetas: [
           {
             id: 16,
@@ -1045,6 +1049,7 @@ export const camisetas = [
 
       {
   nombre: "Malaga",
+  escudo: "/escudos/Escudo Malaga.png",
   camisetas: [
     {
       id: 44,
@@ -1190,6 +1195,7 @@ export const camisetas = [
 },
       {
         nombre: "Atlético de Madrid",
+        escudo: "/escudos/Escudo Atlético de Madrid.png",
         camisetas: [
           {
             id: 21,
@@ -1244,6 +1250,7 @@ export const camisetas = [
         ],
       }, {
         nombre: "Valencia",
+        escudo: "/escudos/Escudo Valencia.png",
         camisetas: [
           {
             id: 29,
@@ -1369,6 +1376,7 @@ export const camisetas = [
       },
       {
   nombre: "Real Sociedad",
+  escudo: "/escudos/Escudo Real Sociedad.png",
   camisetas: [
     {
       id: 96,
@@ -1424,6 +1432,7 @@ export const camisetas = [
 },
 {
   nombre: "Atlético de Bilbao",
+  escudo: "/escudos/Escudo Atlético de Bilbao.png",
   camisetas: [
     {
       id: 172,
@@ -1569,6 +1578,7 @@ export const camisetas = [
 },
 {
   nombre: "Osasuna",
+  escudo: "/escudos/Escudo Osasuna.png",
   camisetas: [
     {
       id: 186,
@@ -1744,6 +1754,7 @@ export const camisetas = [
 },
 {
   nombre: "Elche",
+  escudo: "/escudos/Escudo Elche.png",
   camisetas: [
     {
       id: 194,
@@ -1789,6 +1800,7 @@ export const camisetas = [
 },
 {
   nombre: "Alavés",
+  escudo: "/escudos/Escudo Alavés.png",
   camisetas: [
     {
       id: 198,
@@ -1845,6 +1857,7 @@ export const camisetas = [
 },
 {
   nombre: "Espanyol",
+  escudo: "/escudos/Escudo Espanyol.png",
   camisetas: [
     {
       id: 209,
@@ -1910,6 +1923,7 @@ export const camisetas = [
 },
 {
   nombre: "Getafe",
+  escudo: "/escudos/Escudo Getafe.png",
   camisetas: [
     {
       id: 215,
@@ -1944,6 +1958,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Levante",
+  escudo: "/escudos/Escudo Levante.png",
   camisetas: [
     {
       id: 218,
@@ -1968,6 +1983,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Racing de Santander",
+  escudo: "/escudos/Escudo Racing de Santander.png",
   camisetas: [
     {
       id: 220,
@@ -2032,6 +2048,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Rayo Vallecano",
+  escudo: "/escudos/Escudo Rayo Vallecano.png",
   camisetas: [
     {
       id: 233,
@@ -2106,6 +2123,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Celta de Vigo",
+  escudo: "/escudos/Escudo Celta de Vigo.png",
   camisetas: [
     {
       id: 240,
@@ -2230,6 +2248,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Villarreal",
+  escudo: "/escudos/Escudo Villarreal.png",
   camisetas: [
     {
       id: 252,
@@ -2250,6 +2269,7 @@ export const camisetas = [
     equipos: [
       {
         nombre: "Cordoba",
+        escudo: "/escudos/Escudo Cordoba.png",
         camisetas: [
           {
             id: 11,
@@ -2336,6 +2356,7 @@ export const camisetas = [
       
        {
         nombre: "Cádiz",
+        escudo: "/escudos/Escudo Cádiz.png",
         camisetas: [
           {
             id: 24,
@@ -2401,6 +2422,7 @@ export const camisetas = [
       },
       {
         nombre: "Ceuta",
+        escudo: "/escudos/Escudo Ceuta.png",
         camisetas: [
           {
             id: 69,
@@ -2436,6 +2458,7 @@ export const camisetas = [
       },
       {
         nombre: "Albacete",
+        escudo: "/escudos/Escudo Albacete.png",
         camisetas: [
           {
             id: 72,
@@ -2481,6 +2504,7 @@ export const camisetas = [
       },
       {
         nombre: "Burgos",
+        escudo: "/escudos/Escudo Burgos.png",
         camisetas: [
           {
             id: 76,
@@ -2526,6 +2550,7 @@ export const camisetas = [
       },
       {
         nombre: "Castellón",
+        escudo: "/escudos/Escudo Castellón.png",
         camisetas: [
           {
             id: 80,
@@ -2561,6 +2586,7 @@ export const camisetas = [
       },
       {
         nombre: "Leganés",
+        escudo: "/escudos/Escudo Leganés.png",
         camisetas: [
           {
             id: 83,
@@ -2586,6 +2612,7 @@ export const camisetas = [
       },
       {
         nombre: "Granada",
+        escudo: "/escudos/Escudo Granada.png",
         camisetas: [
           {
             id: 87,
@@ -2671,6 +2698,7 @@ export const camisetas = [
       },
       {
   nombre: "Almería",
+  escudo: "/escudos/Escudo Almería.png",
   camisetas: [
     {
       id: 101,
@@ -2695,6 +2723,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Las Palmas",
+  escudo: "/escudos/Escudo Las Palmas.png",
   camisetas: [
     {
       id: 103,
@@ -2820,6 +2849,7 @@ export const camisetas = [
 },
 {
   nombre: "Tenerife",
+  escudo: "/escudos/Escudo Tenerife.png",
   camisetas: [
     {
       id: 106,
@@ -2895,6 +2925,7 @@ export const camisetas = [
 },
 {
   nombre: "Girona",
+  escudo: "/escudos/Escudo Girona.png",
   camisetas: [
     {
       id: 113,
@@ -2930,6 +2961,7 @@ export const camisetas = [
 },
 {
   nombre: "Mallorca",
+  escudo: "/escudos/Escudo Mallorca.png",
   camisetas: [
     {
       id: 129,
@@ -3004,6 +3036,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Oviedo",
+  escudo: "/escudos/Escudo Oviedo.png",
   camisetas: [
     {
       id: 136,
@@ -3168,6 +3201,7 @@ export const camisetas = [
   ],
 },{
   nombre: "Valladolid",
+  escudo: "/escudos/Escudo Valladolid.png",
   camisetas: [
     {
       id: 152,
@@ -3243,6 +3277,7 @@ export const camisetas = [
 },
 {
   nombre: "Eibar",
+  escudo: "/escudos/Escudo Eibar.png",
   camisetas: [
     {
       id: 159,
@@ -3258,6 +3293,7 @@ export const camisetas = [
 },
 {
   nombre: "Sporting de Gijón",
+  escudo: "/escudos/Escudo Sporting de Gijón.png",
   camisetas: [
     {
       id: 160,
@@ -3389,6 +3425,7 @@ export const camisetas = [
     equipos: [
       {
         nombre: "España",
+        escudo: "/escudos/Escudo España.png",
         camisetas: [
           {
             id: 13,
@@ -3524,6 +3561,7 @@ export const camisetas = [
       },
       {
   nombre: "Argentina",
+  escudo: "/escudos/Escudo Argentina.png",
   camisetas: [
     {
       id: 367,
@@ -3559,6 +3597,7 @@ export const camisetas = [
 },
 {
   nombre: "Brasil",
+  escudo: "/escudos/Escudo Brasil.png",
   camisetas: [
     {
       id: 370,
@@ -3584,6 +3623,7 @@ export const camisetas = [
 },
 {
   nombre: "Alemania",
+  escudo: "/escudos/Escudo Alemania.png",
   camisetas: [
     {
       id: 372,
@@ -3609,6 +3649,7 @@ export const camisetas = [
 },
 {
   nombre: "Francia",
+  escudo: "/escudos/Escudo Francia.png",
   camisetas: [
     {
       id: 374,
@@ -3634,6 +3675,7 @@ export const camisetas = [
 },
 {
   nombre: "Inglaterra",
+  escudo: "/escudos/Escudo Inglaterra.png",
   camisetas: [
     {
       id: 376,
@@ -3659,6 +3701,7 @@ export const camisetas = [
 },
 {
   nombre: "Portugal",
+  escudo: "/escudos/Escudo Portugal.png",
   camisetas: [
     {
       id: 378,
@@ -3684,6 +3727,7 @@ export const camisetas = [
 },
 {
   nombre: "Noruega",
+  escudo: "/escudos/Escudo Noruega.png",
   camisetas: [
     {
       id: 380,
@@ -3709,6 +3753,7 @@ export const camisetas = [
 },
 {
   nombre: "Marruecos",
+  escudo: "/escudos/Escudo Marruecos.png",
   camisetas: [
     {
       id: 382,
@@ -3739,6 +3784,7 @@ export const camisetas = [
   equipos: [
     {
       nombre: "Manchester United",
+      escudo: "/escudos/Escudo Manchester United.png",
       camisetas: [
         {
           id: 366,
@@ -3794,6 +3840,7 @@ export const camisetas = [
     },
     {
   nombre: "Manchester City",
+  escudo: "/escudos/Escudo Manchester City.png",
   camisetas: [
     {
       id: 371,
@@ -3869,6 +3916,7 @@ export const camisetas = [
 },
 {
   nombre: "Liverpool",
+  escudo: "/escudos/Escudo Liverpool.png",
   camisetas: [
     {
       id: 387,
@@ -3964,6 +4012,7 @@ export const camisetas = [
 },
 {
   nombre: "Arsenal",
+  escudo: "/escudos/Escudo Arsenal.png",
   camisetas: [
     {
       id: 377,
@@ -4179,6 +4228,7 @@ export const camisetas = [
 },
 {
   nombre: "Chelsea",
+  escudo: "/escudos/Escudo Chelsea.png",
   camisetas: [
     {
       id: 398,
@@ -4384,7 +4434,7 @@ export const camisetas = [
 },
 {
   nombre: "Tottenham Hotspur",
-
+escudo: "/escudos/Escudo Tottenham Hotspur.png",
   camisetas: [
 
     {
