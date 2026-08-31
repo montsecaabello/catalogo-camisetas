@@ -46,6 +46,7 @@ export function CarritoProvider({
         carrito,
         setCarrito,
         agregarAlCarrito,
+        
         animarCarrito,
         setAnimarCarrito,
       }}
